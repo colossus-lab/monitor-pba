@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, Legend } from 'recharts';
 
 function DashboardSummary({ data }) {
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   // Aggregate data for KPIs
   const totalCategories = data.length;
   const totalDatasets = data.reduce((acc, cat) => acc + cat.datasets.length, 0);
@@ -60,8 +68,8 @@ function DashboardSummary({ data }) {
         <h3 style={{ marginBottom: '1.5rem', fontWeight: 600 }}>Distribución por Tema</h3>
         <ResponsiveContainer width="100%" height="90%">
           <BarChart data={chartData} layout="vertical" margin={{ top: 5, right: 30, left: 10, bottom: 5 }}>
-            <XAxis type="number" stroke="var(--text-secondary)" />
-            <YAxis dataKey="name" type="category" stroke="var(--text-secondary)" width={280} tick={{fontSize: 12}} />
+            <XAxis type="number" stroke="var(--text-secondary)" tick={{fontSize: isMobile ? 10 : 12}} />
+            <YAxis dataKey="name" type="category" stroke="var(--text-secondary)" width={isMobile ? 130 : 280} tick={{fontSize: isMobile ? 10 : 12}} />
             <Tooltip 
               cursor={{fill: 'var(--hover-bg)'}} 
               contentStyle={{ background: '#1e293b', border: 'none', borderRadius: '8px', color: '#fff' }} 
