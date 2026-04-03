@@ -1,5 +1,5 @@
 import React from 'react';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, Legend } from 'recharts';
 
 function DashboardSummary({ data }) {
   // Aggregate data for KPIs
@@ -21,6 +21,8 @@ function DashboardSummary({ data }) {
       Nacional: nac
     };
   }).sort((a, b) => b.Total - a.Total);
+
+  const dynamicHeight = Math.max(400, chartData.length * 70);
 
   return (
     <div className="dashboard-summary fade-in">
@@ -54,21 +56,19 @@ function DashboardSummary({ data }) {
       </div>
 
       {/* Chart */}
-      <div className="chart-container" style={{ marginTop: '3rem', height: '400px', padding: '1.5rem', background: 'var(--bg-glass)', borderRadius: '16px', border: '1px solid var(--border-color)' }}>
+      <div className="chart-container" style={{ marginTop: '3rem', height: `${dynamicHeight}px`, minHeight: '400px', padding: '1.5rem', background: 'var(--bg-glass)', borderRadius: '16px', border: '1px solid var(--border-color)' }}>
         <h3 style={{ marginBottom: '1.5rem', fontWeight: 600 }}>Distribución por Tema</h3>
         <ResponsiveContainer width="100%" height="90%">
-          <BarChart data={chartData} layout="vertical" margin={{ top: 5, right: 30, left: 150, bottom: 5 }}>
+          <BarChart data={chartData} layout="vertical" margin={{ top: 5, right: 30, left: 10, bottom: 5 }}>
             <XAxis type="number" stroke="var(--text-secondary)" />
-            <YAxis dataKey="name" type="category" stroke="var(--text-secondary)" width={140} tick={{fontSize: 12}} />
+            <YAxis dataKey="name" type="category" stroke="var(--text-secondary)" width={280} tick={{fontSize: 12}} />
             <Tooltip 
               cursor={{fill: 'var(--hover-bg)'}} 
               contentStyle={{ background: '#1e293b', border: 'none', borderRadius: '8px', color: '#fff' }} 
             />
-            <Bar dataKey="Total" radius={[0, 4, 4, 0]}>
-              {chartData.map((entry, index) => (
-                <Cell key={`cell-${index}`} fill="var(--chart-color)" />
-              ))}
-            </Bar>
+            <Legend verticalAlign="top" height={36} iconType="circle" />
+            <Bar dataKey="PBA" fill="#10b981" radius={[0, 4, 4, 0]} name="Portal PBA" />
+            <Bar dataKey="Nacional" fill="#8b5cf6" radius={[0, 4, 4, 0]} name="Nacional" />
           </BarChart>
         </ResponsiveContainer>
       </div>

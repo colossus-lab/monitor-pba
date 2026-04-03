@@ -66,7 +66,16 @@ function App() {
         />
         
         <main className="content-area">
-          {!selectedCategory ? (
+          {filteredData.length === 0 ? (
+            <div className="empty-state-wrapper fade-in">
+              <div className="empty-icon">🔍</div>
+              <h3>No hay resultados</h3>
+              <p>No se encontraron datos que coincidan con "<span style={{fontStyle: 'italic'}}>{searchQuery}</span>"</p>
+              <button className="clear-search-btn" onClick={() => setSearchQuery('')}>
+                Limpiar búsqueda
+              </button>
+            </div>
+          ) : !selectedCategory ? (
             <DashboardSummary data={filteredData} />
           ) : (
             <div className="category-view fade-in">
@@ -81,7 +90,14 @@ function App() {
                   ))}
                 </div>
               ) : (
-                <p className="empty-state">No se encontraron resultados para la búsqueda actual.</p>
+                <div className="empty-state-wrapper fade-in">
+                  <div className="empty-icon">📂</div>
+                  <h3>Categoría vacía</h3>
+                  <p>No se encontraron datos para los filtros actuales en esta categoría.</p>
+                  <button className="clear-search-btn" onClick={() => setSearchQuery('')}>
+                    Limpiar búsqueda
+                  </button>
+                </div>
               )}
             </div>
           )}
