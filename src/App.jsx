@@ -12,6 +12,7 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [theme, setTheme] = useState('dark');
   const [searchQuery, setSearchQuery] = useState('');
+  const [expandedDatasetKey, setExpandedDatasetKey] = useState(null);
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
@@ -48,6 +49,11 @@ function App() {
   const activeCategoryData = selectedCategory 
     ? filteredData.find(cat => cat.category === selectedCategory) 
     : null;
+
+  // Reset expanded card when taking other global actions
+  useEffect(() => {
+    setExpandedDatasetKey(null);
+  }, [searchQuery, selectedCategory]);
 
   return (
     <div className="layout-container">
@@ -86,7 +92,12 @@ function App() {
               {activeCategoryData && activeCategoryData.datasets.length > 0 ? (
                 <div className="cards-grid">
                   {activeCategoryData.datasets.map(ds => (
-                    <DatasetCard key={ds.key} dataset={ds} />
+                    <DatasetCard 
+                      key={ds.key} 
+                      dataset={ds} 
+                      isExpanded={expandedDatasetKey === ds.key}
+                      onToggleExpand={() => setExpandedDatasetKey(prev => prev === ds.key ? null : ds.key)}
+                    />
                   ))}
                 </div>
               ) : (
