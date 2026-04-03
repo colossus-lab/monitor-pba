@@ -2,28 +2,20 @@ import React from 'react';
 
 function Header({ searchQuery, setSearchQuery, theme, toggleTheme }) {
   return (
-    <header className="nav-header glass-nav" style={{ position: 'sticky', top: 0, zIndex: 100 }}>
-      <div className="nav-content" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <div className="brand-title" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-          <span style={{ fontSize: '1.2rem' }}>🏛️</span>
-          <span>OpenPBA Explorador</span>
+    <header className="nav-header glass-nav">
+      <div className="nav-content">
+        <div className="brand-title">
+          <span className="brand-icon">🏛️</span>
+          <span className="brand-text">OpenPBA <span className="hide-mobile">Explorador</span></span>
         </div>
         
-        <div style={{ flex: 1, margin: '0 2rem', maxWidth: '400px' }}>
+        <div className="search-container">
           <input
             type="text"
-            placeholder="Buscar en el catálogo..."
+            className="search-input"
+            placeholder="Buscar catálogo..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            style={{
-              width: '100%',
-              padding: '0.5rem 1rem',
-              borderRadius: '20px',
-              border: '1px solid var(--border-color, rgba(255,255,255,0.1))',
-              background: 'var(--bg-glass, rgba(0,0,0,0.2))',
-              color: 'inherit',
-              outline: 'none'
-            }}
           />
         </div>
 
