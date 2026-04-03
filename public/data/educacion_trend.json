@@ -1,0 +1,32 @@
+[
+  {
+    "year": 2016,
+    "subject": "lengua",
+    "positive_percentage": 27.242444444444445
+  },
+  {
+    "year": 2016,
+    "subject": "matemática",
+    "positive_percentage": 15.288666666666666
+  },
+  {
+    "year": 2017,
+    "subject": "ciencias naturales",
+    "positive_percentage": 34.644962962962964
+  },
+  {
+    "year": 2017,
+    "subject": "ciencias sociales",
+    "positive_percentage": 33.04007407407407
+  },
+  {
+    "year": 2017,
+    "subject": "lengua",
+    "positive_percentage": 32.34814814814815
+  },
+  {
+    "year": 2017,
+    "subject": "matemática",
+    "positive_percentage": 16.86137037037037
+  }
+]

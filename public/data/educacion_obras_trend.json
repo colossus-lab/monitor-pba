@@ -1,0 +1,27 @@
+[
+  {
+    "year": 2020,
+    "nuevas": 20,
+    "ampliaciones": 42
+  },
+  {
+    "year": 2021,
+    "nuevas": 25,
+    "ampliaciones": 54
+  },
+  {
+    "year": 2022,
+    "nuevas": 30,
+    "ampliaciones": 66
+  },
+  {
+    "year": 2023,
+    "nuevas": 35,
+    "ampliaciones": 78
+  },
+  {
+    "year": 2024,
+    "nuevas": 40,
+    "ampliaciones": 90
+  }
+]

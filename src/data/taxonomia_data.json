@@ -1,0 +1,2482 @@
+[
+  {
+    "category": "Salud y Bienestar",
+    "datasets": [
+      {
+        "key": "camas",
+        "title": "Camas agudas y crónicas",
+        "org": "Ministerio de Salud",
+        "desc": "Promedio de camas por año, dependencia, región sanitaria y tipo de cama. Periodo 2014 - 2017.",
+        "type": "pba"
+      },
+      {
+        "key": "camas-criticas",
+        "title": "Camas críticas",
+        "org": "Ministerio de Salud",
+        "desc": "Promedio de camas por año, dependencia, región sanitaria,  municipio, nombre de establecimiento y su especialidad. Periodo 2009 - 2017.",
+        "type": "pba"
+      },
+      {
+        "key": "cantidad-de-camas",
+        "title": "Cantidad de camas en prestadores con internación",
+        "org": "IOMA",
+        "desc": "Cantidad de camas en prestadores con internación por año (subsector privado). Fecha de actualización: 11 de febrero de 2025.",
+        "type": "pba"
+      },
+      {
+        "key": "cantidad-de-egresos-internaciones",
+        "title": "Cantidad de egresos",
+        "org": "IOMA",
+        "desc": "Cantidad de egresos (internaciones) por mes y año.  Fecha de actualización: 16 de abril de 2025. ",
+        "type": "pba"
+      },
+      {
+        "key": "cantidad-de-estudios-de-laboratorio",
+        "title": "Cantidad de estudios de laboratorio",
+        "org": "IOMA",
+        "desc": "Cantidad de estudios de laboratorio más frecuentes por mes y año. Fecha de actualización: 11 de febrero de 2025.",
+        "type": "pba"
+      },
+      {
+        "key": "cantidad-de-medicamentos",
+        "title": "Cantidad de medicamentos",
+        "org": "IOMA",
+        "desc": "Cantidad de medicamentos dispensados por mes y plan. Fecha de actualización: 12 de febrero de 2025.",
+        "type": "pba"
+      },
+      {
+        "key": "carreras-enfermeria",
+        "title": "Carreras de enfermería",
+        "org": "Ministerio de Salud",
+        "desc": "Información correspondiente a las carreras de enfermería por región sanitaria, carrera, disposición, sede.",
+        "type": "pba"
+      },
+      {
+        "key": "centros-de-salud",
+        "title": "Centros de salud",
+        "org": "Ministerio de Salud",
+        "desc": "Centros de salud y testeo de la Provincia. Acceso al aborto, testeo de VIH y sífilis, y testeo de hepatitis virales. Incluye referencia geográfica.",
+        "type": "pba"
+      },
+      {
+        "key": "cirugias",
+        "title": "Cirugías",
+        "org": "IOMA",
+        "desc": "Cantidad de cirugías realizadas por especialidad médica y mes (2019 - 2024)\r\nFecha de actualización: 15 de abril de 2025. ",
+        "type": "pba"
+      },
+      {
+        "key": "consultas-obstetricas",
+        "title": "Consultas obstétricas",
+        "org": "Ministerio de Salud",
+        "desc": "Datos anuales de las consultas obstétricas por región sanitaria, establecimiento, municipio y dependencia. Periodo 2018-2023.\r\n",
+        "type": "pba"
+      },
+      {
+        "key": "consultas-y-practicas-ambulatorias-ioma",
+        "title": "Consultas y prácticas ambulatorias",
+        "org": "IOMA",
+        "desc": "Cantidad de consultas y prácticas ambulatorias por entidad médica y mes. Fecha de actualización: 16 de abril de 2025. ",
+        "type": "pba"
+      },
+      {
+        "key": "defunciones-fetales",
+        "title": "Defunciones fetales",
+        "org": "Ministerio de Salud",
+        "desc": "Datos de defunciones fetales por municipio de residencia. Periodo 2017 - 2024.",
+        "type": "pba"
+      },
+      {
+        "key": "defunciones-generales",
+        "title": "Defunciones generales",
+        "org": "Ministerio de Salud",
+        "desc": "Datos de defunciones generales por año, región sanitaria, partido de residencia, grupo de edad, sexo y causa de muerte. Periodo 2009-2019. Archivo en formato zip.",
+        "type": "pba"
+      },
+      {
+        "key": "defunciones-infantiles",
+        "title": "Defunciones infantiles",
+        "org": "Ministerio de Salud",
+        "desc": "Datos anuales de las defunciones por peso al nacer, región sanitaria y municipio.  Periodo 2009-2023.",
+        "type": "pba"
+      },
+      {
+        "key": "defunciones-maternas",
+        "title": "Defunciones maternas",
+        "org": "Ministerio de Salud",
+        "desc": "Datos anuales de defunciones maternas por causa, municipio y región sanitaria. Periodo 2009-2024.",
+        "type": "pba"
+      },
+      {
+        "key": "egresos-hospitalarios",
+        "title": "Egresos hospitalarios",
+        "org": "Ministerio de Salud",
+        "desc": "Cantidad de egresos hospitalarios por región, municipio, causa y tipo. Periodo 2016.",
+        "type": "pba"
+      },
+      {
+        "key": "establecimientos-salud",
+        "title": "Establecimientos de salud",
+        "org": "Ministerio de Salud",
+        "desc": "Información de los establecimientos de salud públicos (nacionales, provinciales y municipales). Año 2022.",
+        "type": "pba"
+      },
+      {
+        "key": "estructura-de-prestadores-por-region-ioma-y-categoria-ministerial",
+        "title": "Estructura de prestadores con internación por Región IOMA y categoría ministerial",
+        "org": "IOMA",
+        "desc": "Cantidad de prestadores por internación por Región IOMA y categoría ministerial (correspondiente a la resolución del Ministerio de Salud PBA. Decreto 3080/90).",
+        "type": "pba"
+      },
+      {
+        "key": "estructura-de-prestadores-por-region-ioma",
+        "title": "Estructura de prestadores por región IOMA",
+        "org": "IOMA",
+        "desc": "Estructura de prestadores con internación por región IOMA según disponibilidad de guardia general. Fecha de actualización: 16 de abril de 2025. ",
+        "type": "pba"
+      },
+      {
+        "key": "estructura-poblacional-afiliados-ioma",
+        "title": "Estructura poblacional de Afiliados IOMA",
+        "org": "IOMA",
+        "desc": "Estructura de la población de afiliados a IOMA con detalle por sexo y rango etario en cada municipio de la Provincia. Fecha de actualización: 31 de julio de 2024.",
+        "type": "pba"
+      },
+      {
+        "key": "estudios-de-imagenes-con-autorizacion-previa",
+        "title": "Estudios de imágenes con autorización previa",
+        "org": "IOMA",
+        "desc": "Cantidad de estudios de imágenes con autorización previa por tipo de estudio y mes. \r\nFecha de actualización: 16 de abril de 2025. ",
+        "type": "pba"
+      },
+      {
+        "title": "Expresiones de voluntad sobre donación de órganos y tejidos",
+        "resources": [
+          "Expresiones de voluntad por provincia hasta mayo 2021",
+          "Expresiones de voluntad por provincia hasta agosto 2019",
+          "Expresiones de voluntad por provincia hasta mayo 2023",
+          "Expresiones de voluntad por provincia hasta julio 2018"
+        ],
+        "key": "salud-expresiones-voluntad-sobre-donacion-organos-tejidos",
+        "type": "abiertos"
+      },
+      {
+        "key": "gasto-anual",
+        "title": "Gasto anual IOMA",
+        "org": "IOMA",
+        "desc": "Gasto anual en pesos por tipo y año. Fecha de actualización: 16 de abril de 2025.",
+        "type": "pba"
+      },
+      {
+        "key": "insumos-comprados-por-tramites-de-excepcion",
+        "title": "Insumos comprados por trámites de excepción",
+        "org": "IOMA",
+        "desc": "Cantidad de Insumos comprados por trámites de excepción por tipo y año. Fecha de actualización: 16 de abril de 2025.",
+        "type": "pba"
+      },
+      {
+        "key": "cantidad-de-medicos-as-por-entidad",
+        "title": "Médicos/as por entidad",
+        "org": "IOMA",
+        "desc": "Cantidad de médicos/as por entidad y año (2019 - feb. 2025).\r\nFecha de actualización: 15 de abril de 2025. ",
+        "type": "pba"
+      },
+      {
+        "key": "nacidos-vivos",
+        "title": "Nacidos vivos",
+        "org": "Ministerio de Salud",
+        "desc": "Detalle de los nacidos vivos por año, municipio, sexo e intervalo de peso al nacer. Periodo 2005 - 2024.",
+        "type": "pba"
+      },
+      {
+        "key": "oficinas-ioma",
+        "title": "Oficinas de atención IOMA",
+        "org": "IOMA",
+        "desc": "Oficinas de atención georreferenciadas que contienen los campos: municipio, dirección, región IOMA, delegaciones, teléfono, contacto, horario, longitud y latitud. Datos a: noviembre 2025.",
+        "type": "pba"
+      },
+      {
+        "key": "padron-historico-de-afiliados",
+        "title": "Padrón histórico de Afiliados IOMA",
+        "org": "IOMA",
+        "desc": "Afiliadas/os al IOMA por tipo de afiliación y año. Fecha de actualización: 16 de abril de 2025. ",
+        "type": "pba"
+      },
+      {
+        "key": "partos-cesareas",
+        "title": "Partos y cesáreas",
+        "org": "Ministerio de Salud",
+        "desc": "Detalle de los partos y cesáreas por año, región sanitaria, establecimiento, municipio y dependencia. ",
+        "type": "pba"
+      },
+      {
+        "title": "Profesionales Médicos por provincia según domicilio electoral",
+        "resources": [
+          "Cantidad de Médicos por jurisdicción según domicilio electoral con corte al año 2016"
+        ],
+        "key": "salud-profesionales-medicos-por-provincia-segun-domicilio-electoral",
+        "type": "abiertos"
+      },
+      {
+        "key": "rendimientos-establecimientos-salud",
+        "title": "Rendimiento de establecimientos de salud",
+        "org": "Ministerio de Salud",
+        "desc": "Detalle de rendimiento con información de cantidad de consultas odontológicas, médicas y paramédicas, interconsultas, egresos, camas disponibles, días de estadía, etc. Periodo 2005 - 2023.",
+        "type": "pba"
+      }
+    ]
+  },
+  {
+    "category": "Educación y Cultura",
+    "datasets": [
+      {
+        "title": "Agricultura familiar - Huertas por provincia",
+        "resources": [
+          "Cantidad de huertas familiares por provincia"
+        ],
+        "key": "agroindustria-agricultura-familiar---huertas-por-provincia",
+        "type": "abiertos"
+      },
+      {
+        "title": "Apicultura - Registro Nacional de Productores Apícolas",
+        "resources": [
+          "Apiarios y colmenas - por departamento",
+          "Productores, apíarios y colmenas - por provincia"
+        ],
+        "key": "agroindustria-apicultura---registro-nacional-productores-apicolas",
+        "type": "abiertos"
+      },
+      {
+        "title": "Censos Docentes",
+        "resources": [
+          "Resultados por provincia"
+        ],
+        "key": "educacion-censos-docentes",
+        "type": "abiertos"
+      },
+      {
+        "key": "cultura",
+        "title": "Establecimientos culturales",
+        "org": "Instituto Cultural de la Provincia de Buenos Aires",
+        "desc": "Museos, teatros y otros establecimientos culturales de la Provincia georreferenciados.",
+        "type": "pba"
+      },
+      {
+        "key": "establecimientos-educativos",
+        "title": "Establecimientos educativos",
+        "org": "Dirección General de Cultura y Educación",
+        "desc": "Información correspondiente a los establecimientos educativos por modalidad y nivel. Fecha de actualización: 24 de febrero de 2026.",
+        "type": "pba"
+      },
+      {
+        "key": "ampliaciones-sistema-educativo",
+        "title": "Expansión y consolidación del sistema educativo",
+        "org": "Dirección General de Cultura y Educación",
+        "desc": "Información correspondiente a la expansión y consolidación del sistema educativo de la Provincia por municipio y georreferenciadas. Fecha de actualización: 24 de febrero de 2026.",
+        "type": "pba"
+      },
+      {
+        "key": "indicadores-de-trayectoria",
+        "title": "Indicadores de trayectoria",
+        "org": "Dirección General de Cultura y Educación",
+        "desc": "Indicadores de trayectoria, proceso y sobreedad. Período: 2012-2022.",
+        "type": "pba"
+      },
+      {
+        "title": "Ley de educación ambiental integral",
+        "resources": [
+          "Encuentros provinciales en el marco de la implementación de la Ley de Educación Ambiental Integral"
+        ],
+        "key": "ambiente-ley-educacion-ambiental-integral",
+        "type": "abiertos"
+      },
+      {
+        "key": "nuevos-edificios-escolares",
+        "title": "Nuevos edificios escolares",
+        "org": "Dirección General de Cultura y Educación",
+        "desc": "Información correspondiente a las escuelas finalizadas por región educativa y georreferenciadas. Fecha de actualización: 24 de febrero de 2026.",
+        "type": "pba"
+      },
+      {
+        "key": "resultados-aprender",
+        "title": "Resultados Aprender",
+        "org": "Dirección General de Cultura y Educación",
+        "desc": "Detalle de los resultados aprender por partido y materia.",
+        "type": "pba"
+      },
+      {
+        "title": "Salas cinematográficas y espectadores",
+        "resources": [
+          "Cantidad de salas cinematográficas, espectadores y espectadores por sala. 24 partidos del Gran Buenos Aires (DISCONTINUADO)",
+          "Cantidad de salas cinematográficas, espectadores y espectadores por sala. Ciudad de Buenos Aires (DISCONTINUADO)"
+        ],
+        "key": "sspm-salas-cinematograficas-espectadores",
+        "type": "abiertos"
+      },
+      {
+        "title": "Sector audiovisual",
+        "resources": [
+          "Espectadores de cine por provincia",
+          "Recaudación de cine a nivel provincial"
+        ],
+        "key": "cultura-sector-audiovisual",
+        "type": "abiertos"
+      },
+      {
+        "key": "tranferencias-consejos-escolares",
+        "title": "Transferencias a Consejos Escolares",
+        "org": "Ministerio de Economía",
+        "desc": "Detalle de las transferencias mensuales realizadas a los consejos escolares por municipio. Periodo enero 2010 - diciembre 2025.",
+        "type": "pba"
+      },
+      {
+        "key": "unidades-de-servicio-y-matricula",
+        "title": "Unidades de servicio y matrícula",
+        "org": "Dirección General de Cultura y Educación",
+        "desc": "Datos correspondientes a la evolución de las unidades de servicio y matrícula de la Provincia de Buenos Aires en todos sus niveles, por sector de gestión y sexo.",
+        "type": "pba"
+      }
+    ]
+  },
+  {
+    "category": "Economía, Finanzas y Producción",
+    "datasets": [
+      {
+        "key": "cajeros-banco-provincia",
+        "title": "Cajeros Banco Provincia",
+        "org": "Banco Provincia (BAPRO)",
+        "desc": "Datos de los cajeros del Banco de la Provincia de Buenos Aires con información de municipio, dirección, información del cajero y localización geográfica.",
+        "type": "pba"
+      },
+      {
+        "key": "capturas-maritimas-especies",
+        "title": "Capturas marítimas",
+        "org": "Ministerio de Desarrollo Agrario",
+        "desc": "Detalle de las capturas marítimas anuales provinciales desagregado por especie. Se consideran los puertos de Mar del Plata, Necochea y Bahía Blanca. Periodo 2010-2019.",
+        "type": "pba"
+      },
+      {
+        "title": "Censo - Explotaciones agropecuarias CNA 02",
+        "resources": [
+          "Explotaciones agropecuarias (EAPs) sin limites definidos, por provincia - CNA-02",
+          "Explotaciones agropecuarias (EAPs) con limites definidos por provincia con parte superficie bajo régimen - CNA-02",
+          "Explotaciones agropecuarias (EAPs) con limites definidos por provincia - CNA 02",
+          "Explotaciones agropecuarias (EAPs) sin limites definidos, por provincia y tipo jurídico - CNA-02",
+          "Explotaciones agropecuarias (EAPs) con limites definidos por provincia con toda su superficie bajo régimen - CNA-02",
+          "Explotaciones agropecuarias (EAPs) con limites definidos por provincia y tenencia de la tierra - CNA-02",
+          "Explotaciones agropecuarias (EAPs) sin limites definidos, por provincia bajo algún régimen - CNA-02",
+          "Explotaciones agropecuarias (EAPs) con limites definidos por provincia y rango de superficie - CNA-02",
+          "Explotaciones agropecuarias (EAPs) con limites definidos por provincia y tipo jurídico - CNA-02"
+        ],
+        "key": "agroindustria-censo---explotaciones-agropecuarias-cna-02",
+        "type": "abiertos"
+      },
+      {
+        "title": "Censo - Ganadería CNA 02",
+        "resources": [
+          "Camélidos por provincia y EAPs",
+          "Ovinos por provincia y EAPs - CNA-02",
+          "Equinos por provincia y EAPs - CNA-02",
+          "Caprinos por provincia y EAPs - CNA-02",
+          "Porcinos por provincia y EAPs - CNA-02",
+          "Bovinos por provincia y EAPs - CNA-02"
+        ],
+        "key": "agroindustria-censo---ganaderia-cna-02",
+        "type": "abiertos"
+      },
+      {
+        "title": "Censo - Mano de obra CNA 02",
+        "resources": [
+          "Residentes totales por provincia - CNA-02"
+        ],
+        "key": "agroindustria-censo---mano-obra-cna-02",
+        "type": "abiertos"
+      },
+      {
+        "title": "Censo - Maquinaria CNA 02",
+        "resources": [
+          "Maquinaria contratada para combinaciones de labores por provincia y hectáreas - CNA-02",
+          "Maquinaria contratada exclusivamente por provincia y EAPs - CNA-02",
+          "Maquinaria contratada exclusivamente por provincia y hectáreas - CNA-02",
+          "Maquinaria contratada para combinaciones de labores por provincia y EAPs - CNA-02"
+        ],
+        "key": "agroindustria-censo---maquinaria-cna-02",
+        "type": "abiertos"
+      },
+      {
+        "key": "centros-formacion-laboral",
+        "title": "Centros de Formación Laboral",
+        "org": "Ministerio de Trabajo",
+        "desc": "Centros de formación laboral de la Provincia, orientados a la formación en oficios para el mundo del trabajo. Incluye referencia geográfica.",
+        "type": "pba"
+      },
+      {
+        "key": "centros-arba",
+        "title": "Centros de Servicio ARBA",
+        "org": "ARBA",
+        "desc": "Centros de atención georreferenciados que contienen los campos: Municipio, Dependencia, Organismo, Nombre, Dirección, Horario, Teléfono. Actualización: 22 de octubre de 2025.",
+        "type": "pba"
+      },
+      {
+        "key": "delegaciones-regionales-del-ministerio-de-trabajo",
+        "title": "Delegaciones Regionales del Ministerio de Trabajo",
+        "org": "Ministerio de Trabajo",
+        "desc": "Delegaciones regionales del Ministerio de Trabajo con su ubicación geográfica, dirección, teléfono, e-mail y responsable. Fecha de actualización: 31 de octubre de 2025. ",
+        "type": "pba"
+      },
+      {
+        "key": "empresas-por-segmento-pymes-emprendedores-y-economia-del-conocimiento",
+        "title": "Empresas por segmento (PyMEs, Emprendedores y Economía del Conocimiento)",
+        "org": "Ministerio de Producción, Ciencia e Innovación Tecnológica",
+        "desc": "Cantidad de empresas y establecimientos de la Provincia por segmento: PyMEs, Emprendedores y Economía del Conocimiento. Contiene los datos: año, empresas, establecimientos y segmento.",
+        "type": "pba"
+      },
+      {
+        "key": "ganado",
+        "title": "Existencias de ganado",
+        "org": "Ministerio de Desarrollo Agrario",
+        "desc": "Estimaciones anuales del stock provincial bovino en cabezas por partido de la provincial, correspondiente al 31 de marzo de cada año. Periodo 2010-2023.",
+        "type": "pba"
+      },
+      {
+        "key": "exportaciones",
+        "title": "Exportaciones",
+        "org": "Ministerio de Economía",
+        "desc": "Información por grandes rubros, rubro, mes y año. Detalle de las exportaciones provinciales realizadas entre 2010 y 2025. Fecha de actualización: febrero 2026. ",
+        "type": "pba"
+      },
+      {
+        "title": "Exportaciones por provincia y por país de destino",
+        "resources": [
+          "Exportaciones por provincia y por país de destino. Valores anuales"
+        ],
+        "key": "sspm-exportaciones-por-provincia-por-pais-destino",
+        "type": "abiertos"
+      },
+      {
+        "title": "Exportaciones por provincia y rubro",
+        "resources": [
+          "Exportaciones por provincia y rubro. Datos anuales"
+        ],
+        "key": "sspm-exportaciones-por-provincia-rubro",
+        "type": "abiertos"
+      },
+      {
+        "title": "Frutas y hortalizas - Precios mayoristas",
+        "resources": [
+          "Precios mayoristas de frutas y hortalizas del Mercado Central de Buenos Aires"
+        ],
+        "key": "agroindustria-frutas-hortalizas---precios-mayoristas",
+        "type": "abiertos"
+      },
+      {
+        "title": "Lácteos - Calidad higiénico sanitaria de la leche cruda a nivel departamental",
+        "resources": [
+          "Recuento de Células Somáticas desde Enero del 2018 hasta la actualidad",
+          "Visor de calidad de leche",
+          "Unidades Formadoras de Colonias desde Enero del 2018 a la actualidad"
+        ],
+        "key": "agroindustria-lacteos---calidad-higienico-sanitaria-leche-cruda-nivel-departamental",
+        "type": "abiertos"
+      },
+      {
+        "title": "Lácteos - Calidad higiénico sanitaria de la leche cruda a nivel provincial",
+        "resources": [
+          "Unidades formadoras de colonias promedio por provincia",
+          "Recuento de células somáticas promedio por provincia"
+        ],
+        "key": "agroindustria-lacteos---calidad-higienico-sanitaria-leche-cruda-nivel-provincial",
+        "type": "abiertos"
+      },
+      {
+        "title": "Lácteos - Estimación de la producción de leche cruda",
+        "resources": [
+          "Estimación de la variación intermensual por provincia (tbo cte)",
+          "Estimación de la variación interanual por provincia (tbo cte)"
+        ],
+        "key": "agroindustria-lacteos---estimacion-produccion-leche-cruda",
+        "type": "abiertos"
+      },
+      {
+        "title": "Lácteos - Porcentaje de Sólidos en Leche Cruda",
+        "resources": [
+          "Porcentaje de proteína por kilogramo de sólidos en leche cruda, a nivel provincial",
+          "Porcentaje de grasa butirosa por kilogramo de sólidos en leche cruda, a nivel provincial"
+        ],
+        "key": "agroindustria-lacteos---porcentaje-solidos-leche-cruda",
+        "type": "abiertos"
+      },
+      {
+        "title": "Lácteos - Precio promedio pagado por provincia",
+        "resources": [
+          "Precio promedio pagado al productor"
+        ],
+        "key": "agroindustria-lacteos---precio-promedio-pagado-por-provincia",
+        "type": "abiertos"
+      },
+      {
+        "key": "partidos",
+        "title": "Límites de los partidos",
+        "org": "ARBA",
+        "desc": "Documentación correspondiente a los partidos.",
+        "type": "pba"
+      },
+      {
+        "key": "parques-industriales",
+        "title": "Parques industriales",
+        "org": "Ministerio de Producción, Ciencia e Innovación Tecnológica",
+        "desc": "Descripción y localización de Parques Industriales de la Provincia.",
+        "type": "pba"
+      },
+      {
+        "key": "poblacion",
+        "title": "Población",
+        "org": "Ministerio de Economía",
+        "desc": "Detalle de la población por municipio. Serie: 2010 - 2025.",
+        "type": "pba"
+      },
+      {
+        "title": "Producciones Sostenibles - Autoridades provinciales competentes de aplicación Ley 27.279",
+        "resources": [
+          "Autoridades provinciales competentes de aplicación Ley 27.279"
+        ],
+        "key": "agroindustria-producciones-sostenibles---autoridades-provinciales-competentes-aplicacion-ley-27279",
+        "type": "abiertos"
+      },
+      {
+        "title": "Producciones Sostenibles - Regulaciones sobre aplicación de fitosanitarios",
+        "resources": [
+          "Regulaciones Provinciales sobre aplicación de Agroquímicos"
+        ],
+        "key": "agroindustria-producciones-sostenibles---regulaciones-sobre-aplicacion-fitosanitarios",
+        "type": "abiertos"
+      },
+      {
+        "key": "pbg",
+        "title": "Producto Bruto Geográfico (PBG)",
+        "org": "Ministerio de Economía",
+        "desc": "Detalle de PBG según sector de actividad económica, en millones de pesos a precios corrientes y constantes de 2004. Serie 2004-2023 (Año 2021 y 2022 datos provisorios y 2023 datos preliminares).",
+        "type": "pba"
+      },
+      {
+        "key": "puertos",
+        "title": "Puertos públicos",
+        "org": "Ministerio de Producción, Ciencia e Innovación Tecnológica",
+        "desc": "Puertos georreferenciados que contienen los campos: Dependencia, Organismo, Nombre, Dirección, Partido, Teléfono, Contacto, Web, latitud y longitud.",
+        "type": "pba"
+      },
+      {
+        "key": "radios-censales",
+        "title": "Radios censales",
+        "org": "Ministerio de Economía",
+        "desc": "Representa la ubicación de las unidades geográficas empleadas en el censo, acompañadas con su código, nombre e información estadística básica.",
+        "type": "pba"
+      },
+      {
+        "key": "recaudacion",
+        "title": "Recaudación provincial",
+        "org": "Ministerio de Economía",
+        "desc": "Detalle mensual de la recaudación provincial por concepto y periodo (en millones de pesos corriente). Periodo enero 1999 - diciembre 2025.",
+        "type": "pba"
+      },
+      {
+        "key": "sucursales-banco-provincia",
+        "title": "Sucursales Banco Provincia",
+        "org": "Banco Provincia (BAPRO)",
+        "desc": "Datos de las sucursales del Banco de la Provincia de Buenos Aires con información de municipio, sucursal, teléfono, horarios y localización geográfica. ",
+        "type": "pba"
+      },
+      {
+        "title": "Tabaco - Acopio",
+        "resources": [
+          "Volúmenes de tabaco por provincia. Campaña 2017/2018"
+        ],
+        "key": "agroindustria-tabaco---acopio",
+        "type": "abiertos"
+      },
+      {
+        "title": "Tabaco - Producción",
+        "resources": [
+          "Superficie y producción por tipo de tabaco desagregado por provincias"
+        ],
+        "key": "agroindustria-tabaco---produccion",
+        "type": "abiertos"
+      },
+      {
+        "key": "teus-movilizados",
+        "title": "Teus movilizados",
+        "org": "Ministerio de Producción, Ciencia e Innovación Tecnológica",
+        "desc": "Teus movilizados, por mes y año. (01/2023 - 09/2025)\r\nFecha de actualización: 26 de febrero de 2026. ",
+        "type": "pba"
+      },
+      {
+        "key": "toneladas-movilizadas",
+        "title": "Toneladas movilizadas",
+        "org": "Ministerio de Producción, Ciencia e Innovación Tecnológica",
+        "desc": "Toneladas de carga a granel movilizadas por mes y año (01/2023 - 09/2025). \r\nFecha de actualización: 26 de febrero de 2026. \r\n",
+        "type": "pba"
+      },
+      {
+        "key": "transferencias-municipios",
+        "title": "Transferencias a municipios",
+        "org": "Ministerio de Economía",
+        "desc": "Detalle de las transferencias mensuales realizadas a los municipios por concepto. Periodo enero 2010 - diciembre 2025.",
+        "type": "pba"
+      },
+      {
+        "key": "vias-circulacion",
+        "title": "Vías de circulación",
+        "org": "Ministerio de Economía",
+        "desc": "Formatos .shp, .geojson y kml (EPSG:4326. Proyección WGS 84. Codificación: UTF8). Representa la ubicación, con nombre y códigos, de las vías de circulación de las localidades censales de la Provincia.",
+        "type": "pba"
+      },
+      {
+        "title": "Warrants - Lista de certificados vigentes",
+        "resources": [
+          "Total Warrants Vigentes por Provincia 2017"
+        ],
+        "key": "agroindustria-warrants---lista-certificados-vigentes",
+        "type": "abiertos"
+      }
+    ]
+  },
+  {
+    "category": "Infraestructura, Transporte y Energía",
+    "datasets": [
+      {
+        "title": "Actividad económica, empleo y pobreza - Ingresos y desigualdad",
+        "resources": [
+          "Índice Nacional de Priorización para la Pre Inversión (provincial)",
+          "Índice de Desarrollo Humano (provincial)",
+          "Índice de Desarrollo Sostenible (provincial)"
+        ],
+        "key": "obras-actividad-economica-empleo-pobreza---ingresos-desigualdad",
+        "type": "abiertos"
+      },
+      {
+        "title": "Agua, saneamiento e infraestructura hídrica - Agua y saneamiento",
+        "resources": [
+          "Índice Vulnerabilidad por Déficit de Agua y Saneamiento (provincial)",
+          "Índice Vulnerabilidad por Déficit de Agua y Saneamiento (departamental)"
+        ],
+        "key": "obras-agua-saneamiento-e-infraestructura-hidrica---agua-saneamiento",
+        "type": "abiertos"
+      },
+      {
+        "title": "Asentamientos humanos, sistemas de ciudades e infraestructuras - Urbanización y ruralidad",
+        "resources": [
+          "Porcentaje provincial de barrios populares."
+        ],
+        "key": "obras-asentamientos-humanos-sistemas-ciudades-e-infraestructuras---urbanizacion-ruralidad",
+        "type": "abiertos"
+      },
+      {
+        "title": "Balances Energéticos",
+        "resources": [
+          "Balances Energéticos Provinciales",
+          "Buenos Aires 2015-2019"
+        ],
+        "key": "energia-balances-energeticos",
+        "type": "abiertos"
+      },
+      {
+        "key": "cuerpos-agua",
+        "title": "Cuerpos de agua",
+        "org": "Ministerio de Infraestructura y Servicios Públicos",
+        "desc": "Formatos .shp, .geojson y kml (EPSG:4326. Proyección WGS 84). Ubicación y detalle de los cuerpos de agua de la Provincia con información de tipo, nombre, régimen y navegabilidad.",
+        "type": "pba"
+      },
+      {
+        "key": "cursos-agua",
+        "title": "Cursos de agua",
+        "org": "Ministerio de Infraestructura y Servicios Públicos",
+        "desc": "Formatos .shp, .geojson y kml (EPSG:4326. Proyección WGS 84).Ubicación y detalle de los cursos de agua de la Provincia con información de unión, tipo, nombre, régimen, navegabilidad, entre otros.",
+        "type": "pba"
+      },
+      {
+        "key": "curvas-nivel",
+        "title": "Curvas de nivel",
+        "org": "Ministerio de Infraestructura y Servicios Públicos",
+        "desc": "Formatos .shp, .geojson y kml (EPSG:4326. Proyección WGS 84) en archivo ZIP con datos de la ubicación y detalle de las curvas de nivel de la Provincia con información de cota, hoja y fuente. Fecha de actualización: 14 de marzo de 2025.",
+        "type": "pba"
+      },
+      {
+        "title": "Empresas de transporte de RMBA",
+        "resources": [
+          "Empresas de transporte que operan Jurisdicción Provincial"
+        ],
+        "key": "transporte-empresas-transporte-rmba",
+        "type": "abiertos"
+      },
+      {
+        "title": "Empresas de transporte urbano de pasajeros de Región Metropolitana de Buenos Aires - SUBE",
+        "resources": [
+          "Empresas de Transporte",
+          "Empresas de transporte - Diccionario de datos"
+        ],
+        "key": "transporte-empresas-transporte-urbano-pasajeros-region-metropolitana-buenos-aires---sube",
+        "type": "abiertos"
+      },
+      {
+        "title": "Energías Renovables - Balance por radio censal de Energía derivada de la Biomasa WISDOM",
+        "resources": [
+          "Provincia de Córdoba",
+          "Provincia de Entre Ríos\n ",
+          "Provincia de Buenos Aires\n \n ",
+          "Provincia de La Pampa",
+          "Provincia de Tucumán",
+          "Provincia de Chaco",
+          "Provincia de Mendoza",
+          "Provincia de Misiones\n ",
+          "Provincia de Misiones\n \n ",
+          "Provincia de Salta",
+          "Provincia de Corrientes\n ",
+          "Provincia de Santa Fe",
+          "Provincia de Corrientes",
+          "Provincia de Buenos Aires\n ",
+          "Provincia de Entre Ríos"
+        ],
+        "key": "energia-energias-renovables---balance-por-radio-censal-energia-derivada-biomasa-wisdom",
+        "type": "abiertos"
+      },
+      {
+        "key": "estaciones-ferroviario",
+        "title": "Estaciones del sistema ferroviario en la provincia",
+        "org": "Ministerio de Infraestructura y Servicios Públicos",
+        "desc": "Datos de la ubicación y descripción de las estaciones de ferrocarril en territorio provincial. Fecha de actualización: 13 de febrero de 2026. ",
+        "type": "pba"
+      },
+      {
+        "title": "Internet Fija",
+        "resources": [
+          "Internet Fija Accesos Velocidad Provincias-csv",
+          "Internet Fija Penetracion Provincias-csv",
+          "Internet Fija Accesos Tecnologia Provincias-csv",
+          "Internet Fija Accesos Tecnologia Provincias-xls",
+          "Internet Fija Accesos BAF Provincias-xls",
+          "Internet Fija VMD Provincias-csv",
+          "Internet Fija Accesos BAF Provincias-csv",
+          "Internet Fija Accesos Velocidad Rango Provincias-csv",
+          "Internet Fija Penetracion Provincias-xls",
+          "Internet Fija VMD Provincias-xls",
+          "Internet Fija Accesos Velocidad Provincias-xls",
+          "Internet Fija Accesos Velocidad Rango Provincias-xls"
+        ],
+        "key": "enacom-internet-fija",
+        "type": "abiertos"
+      },
+      {
+        "key": "juzgados-seguridad-vial",
+        "title": "Juzgados de seguridad vial",
+        "org": "Ministerio de Transporte",
+        "desc": "Juzgados georreferenciados de la Provincia. Contiene los campos: municipio, juzgado, juez, domicilio, teléfono,horario, email, latitud y longitud. Fecha de actualización: 13 de febrero de 2026. ",
+        "type": "pba"
+      },
+      {
+        "title": "Lineas y Empresas de transporte urbano de pasajeros de Región Metropolitana de Buenos Aires - SUBE",
+        "resources": [
+          "Empresas - Lineas de transporte - Diccionario de datos",
+          "Lineas de Transporte"
+        ],
+        "key": "transporte-lineas-empresas-transporte-urbano-pasajeros-region-metropolitana-buenos-aires---sube",
+        "type": "abiertos"
+      },
+      {
+        "title": "Líneas de transporte de RMBA",
+        "resources": [
+          "Empresas de transporte que operan por Jurisdicción Provincial"
+        ],
+        "key": "transporte-lineas-transporte-rmba",
+        "type": "abiertos"
+      },
+      {
+        "title": "Mapas de Generación y Transporte Eléctrico",
+        "resources": [
+          "Generación, transporte y distribución de energía eléctrica - Buenos Aires"
+        ],
+        "key": "energia-mapas-generacion-transporte-electrico",
+        "type": "abiertos"
+      },
+      {
+        "title": "Mercado Postal",
+        "resources": [
+          "Mercado Postal Facturacion Produccion Provincias-xls",
+          "Mercado Postal Facturacion Produccion Provincias-csv"
+        ],
+        "key": "enacom-mercado-postal",
+        "type": "abiertos"
+      },
+      {
+        "title": "Operaciones de un día hábil promedio sectorizados en hexágonos de 600m por Modo de transporte y Hora",
+        "resources": [
+          "Visualización animada de datos - Total de operaciones por Modo y Hora Ciudad de Buenos Aires"
+        ],
+        "key": "transporte-operaciones-dia-habil-promedio-sectorizados-hexagonos-600m-por-modo-transporte-hora",
+        "type": "abiertos"
+      },
+      {
+        "title": "PERMER I",
+        "resources": [
+          "Departamentos s/ cant. Residencial PERMER I"
+        ],
+        "key": "energia-permer-i",
+        "type": "abiertos"
+      },
+      {
+        "title": "PMyE - Indices Multidimensionales",
+        "resources": [
+          "Índice de Desarrollo Sostenible (provincial)",
+          "Índice Nacional de Priorización para la Pre Inversión (provincial)",
+          "Indice de Inequidades en la Primera Infancia (departamental)",
+          "Indice de Inequidades en la Primera Infancia (provincial)",
+          "Índice Vulnerabilidad por Déficit de Agua y Saneamiento (provincial)",
+          "Índice de Desarrollo Humano (provincial)",
+          "Índice Vulnerabilidad por Déficit de Agua y Saneamiento (departamental)"
+        ],
+        "key": "obras-pmye---indices-multidimensionales",
+        "type": "abiertos"
+      },
+      {
+        "title": "Perforación de pozos de petróleo y gas",
+        "resources": [
+          "Pozos terminados por tipo de pozo y provincia",
+          "Pozos en perforación por provincia",
+          "Metros perforados por provincia",
+          "Pozos terminados por concepto y provincia desde 2009"
+        ],
+        "key": "energia-perforacion-pozos-petroleo-gas",
+        "type": "abiertos"
+      },
+      {
+        "title": "Personal",
+        "resources": [
+          "Personal por provincia"
+        ],
+        "key": "arsat-personal",
+        "type": "abiertos"
+      },
+      {
+        "title": "Producción de Petróleo y Gas (SESCO)",
+        "resources": [
+          "Producción gas sesco + Tight y Shale capítulo IV por provincia",
+          "Producción de petróleo promedio diaria por provincia",
+          "Producción petróleo sesco + Tight y Shale capítulo IV por provincia",
+          "Producción de gas promedio diaria por provincia"
+        ],
+        "key": "energia-produccion-petroleo-gas-sesco",
+        "type": "abiertos"
+      },
+      {
+        "title": "Recorridos de Líneas de Transporte de Región Metropolitana de Buenos Aires (RMBA)",
+        "resources": [
+          "Buses - Líneas de Jurisdicción Provincial",
+          "Buses - Lineas Jurisdicción Nacional",
+          "Subterraneos - Líneas",
+          "Buses - Lineas Jurisdicción Provincial",
+          "Subterráneo - Líneas",
+          "Buses - Líneas Jurisdicción Nacional",
+          "Ferrocarril - Estaciones",
+          "Buses - Líneas Jurisdicción Municipal",
+          "Subterráneo - Estaciones",
+          "Buses - Lineas Jurisdicción Municipal",
+          "Subterraneo - Líneas",
+          "Buses - Líneas Jurisdicción Provincial",
+          "Subterraneo - Estaciones",
+          "Ferrocarril - Líneas",
+          "Subterraneos - Estaciones"
+        ],
+        "key": "transporte-recorridos-lineas-transporte-region-metropolitana-buenos-aires-rmba",
+        "type": "abiertos"
+      },
+      {
+        "key": "red-vial",
+        "title": "Red vial",
+        "org": "Ministerio de Infraestructura y Servicios Públicos",
+        "desc": "Formatos .shp, .geojson y kml (EPSG:4326. Proyección WGS 84) en archivo ZIP de datos de la ubicación y descripción de la red vial provincial. Fecha de actualización: 23 de febrero de 2026.",
+        "type": "pba"
+      },
+      {
+        "title": "Redes de distribución eléctrica",
+        "resources": [
+          "Redes de distribución eléctrica de BUENOS AIRES  - EDEA – Líneas  Media y Alta Tensión",
+          "Redes de distribución eléctrica de BUENOS AIRES (solo cooperativas) - CFEE – Líneas  Media y Alta Tensión ",
+          "Redes de distribución eléctrica de BUENOS AIRES  - EDES – Líneas  Media y Alta Tensión ",
+          "Redes de distribución eléctrica de BUENOS AIRES  - EDENSA – Líneas  Media y Alta Tensión",
+          "Redes de distribución eléctrica de BUENOS AIRES  - EDENSA – Líneas  Media y Alta Tensión ",
+          "Redes de distribución eléctrica de BUENOS AIRES  - EDES – Líneas  Media y Alta Tensión",
+          "Redes de distribución eléctrica de BUENOS AIRES  - EDEA – Líneas  Media y Alta Tensión "
+        ],
+        "key": "energia-redes-distribucion-electrica",
+        "type": "abiertos"
+      },
+      {
+        "title": "Refinación y Comercialización de petróleo, gas y derivados (Tablas Dinámicas)",
+        "resources": [
+          "Serie histórica de Ventas por provincia, (excluye ventas a empresas del sector)",
+          "Serie histórica de ventas de aerokerosene por provincia (excluye ventas a empresas del sector)"
+        ],
+        "key": "energia-refinacion-comercializacion-petroleo-gas-derivados-tablas-dinamicas",
+        "type": "abiertos"
+      },
+      {
+        "title": "Rutas Provinciales",
+        "resources": [
+          "Rutas Provinciales"
+        ],
+        "key": "transporte-rutas-provinciales",
+        "type": "abiertos"
+      },
+      {
+        "title": "SUBE Operaciones de viaje por mes de Región Metropolitana de Buenos Aires",
+        "resources": [
+          "Operaciones de viaje por Periodo - Modo - Jurisdicción - Grupo Tarifario - Empresa - Línea - Tipo de Pasaje - Cantidad",
+          "Diccionario de Datos",
+          "Operaciones de viaje por Periodo - Modo - Jurisdicción - Grupo Tarifario - Empresa - Línea - Tipo de Pasaje"
+        ],
+        "key": "transporte-sube-operaciones-viaje-por-mes-region-metropolitana-buenos-aires",
+        "type": "abiertos"
+      },
+      {
+        "title": "SUBE Operaciones de viaje por mes de Región Metropolitana de Buenos Aires, agregado",
+        "resources": [
+          "Diccionario de datos",
+          "Operaciones de viaje por Periodo - Modo - Jurisdicción - Grupo Tarifario - Empresa - Línea"
+        ],
+        "key": "transporte-sube-operaciones-viaje-por-mes-region-metropolitana-buenos-aires-agregado",
+        "type": "abiertos"
+      },
+      {
+        "title": "SUBE Operaciones de viaje por mes de Región Metropolitana de Buenos Aires, agregado por Mes",
+        "resources": [
+          "Operaciones de viaje por Periodo",
+          "Diccionario de datos"
+        ],
+        "key": "transporte-sube-operaciones-viaje-por-mes-region-metropolitana-buenos-aires-agregado-por-mes",
+        "type": "abiertos"
+      },
+      {
+        "title": "SUBE Operaciones de viaje por mes de Región Metropolitana de Buenos Aires, agregado por Periodo-Modo",
+        "resources": [
+          "Operaciones de viaje por Periodo - Modo",
+          "Diccionario de datos"
+        ],
+        "key": "transporte-sube-operaciones-viaje-por-mes-region-metropolitana-buenos-aires-agregado-por-periodo",
+        "type": "abiertos"
+      },
+      {
+        "title": "Servicios REFEFO",
+        "resources": [
+          "Clientes en servicio por provincia"
+        ],
+        "key": "arsat-servicios-refefo",
+        "type": "abiertos"
+      },
+      {
+        "key": "ferroviario",
+        "title": "Sistema ferroviario en la provincia",
+        "org": "Ministerio de Infraestructura y Servicios Públicos",
+        "desc": "Formatos .shp, .geojson y kml (EPSG:4326. Proyección WGS 84) en archivo ZIP de datos de la ubicación y descripción de las vías férreas sobre territorio provincial. Fecha de actualización: 23/02/2026.",
+        "type": "pba"
+      },
+      {
+        "title": "Sistema sociodemográfico - Grupos poblacionales e inequidades",
+        "resources": [
+          "Indice de Inequidades en la Primera Infancia (provincial)",
+          "Indice de Inequidades en la Primera Infancia (departamental)"
+        ],
+        "key": "obras-sistema-sociodemografico---grupos-poblacionales-e-inequidades",
+        "type": "abiertos"
+      },
+      {
+        "title": "Subsidios al transporte público de pasajeros",
+        "resources": [
+          "Compensaciones Complementarias Provinciales (CCP) - Art. 3º Decreto Nº 98/07"
+        ],
+        "key": "transporte-subsidios-al-transporte-publico-pasajeros",
+        "type": "abiertos"
+      },
+      {
+        "title": "Telefonía Fija",
+        "resources": [
+          "Telefonía Fija Accesos Provincias-xls",
+          "Telefonía Fija Penetracion Provincias-csv",
+          "Telefonía Fija Penetracion Provincias-xls",
+          "Telefonía Fija Accesos Provincias-csv"
+        ],
+        "key": "enacom-telefonia-fija",
+        "type": "abiertos"
+      },
+      {
+        "title": "Tv por Suscripción",
+        "resources": [
+          "Tv por Suscripción Accesos Provincias-csv",
+          "Tv por Suscripción Penetracion Provincias-csv",
+          "Tv por Suscripción Accesos Provincias-xls",
+          "Tv por Suscripción Penetracion Provincias-xls"
+        ],
+        "key": "enacom-tv-por-suscripcion",
+        "type": "abiertos"
+      }
+    ]
+  },
+  {
+    "category": "Justicia, Seguridad y Derechos Humanos",
+    "datasets": [
+      {
+        "title": "Archivos recibidos de los ministerios públicos provinciales",
+        "resources": [
+          "Archivos recibidos de los ministerios públicos provinciales 2024",
+          "Índice de archivos recibidos de los ministerios públicos provinciales 2018",
+          "Índice de archivos recibidos de los ministerios públicos provinciales 2025",
+          "Archivos recibidos de los ministerios públicos provinciales 2018",
+          "Archivos recibidos de los ministerios públicos provinciales 2020",
+          "Archivos recibidos de los ministerios públicos provinciales 2022",
+          "Índice de archivos recibidos de los ministerios públicos provinciales 2023",
+          "Índice de archivos recibidos de los ministerios públicos provinciales 2019",
+          "Archivos recibidos de los ministerios públicos provinciales 2025",
+          "Archivos recibidos de los ministerios públicos provinciales 2023",
+          "Índice de archivos recibidos de los ministerios públicos provinciales 2020",
+          "Índice de archivos recibidos de los ministerios públicos provinciales 2021",
+          "Archivos recibidos de los ministerios públicos provinciales 2021",
+          "Índice de archivos recibidos de los ministerios públicos provinciales 2022",
+          "Índice de archivos recibidos de los ministerios públicos provinciales 2024",
+          "Archivos recibidos de los ministerios públicos provinciales 2019"
+        ],
+        "key": "justicia-archivos-recibidos-ministerios-publicos-provinciales",
+        "type": "abiertos"
+      },
+      {
+        "title": "Archivos recibidos de los poderes judiciales provinciales - Justicia no penal",
+        "resources": [
+          "Archivos recibidos de los poderes judiciales provinciales referidos a causas no penales 2023",
+          "Índice de archivos recibidos de los poderes judiciales provinciales referidos a justicia no penal 2025",
+          "Índice de archivos recibidos de los poderes judiciales provinciales referidos a justicia no penal 2021",
+          "Archivos recibidos de los poderes judiciales provinciales referidos a causas no penales 2018",
+          "Archivos recibidos de los poderes judiciales provinciales referidos a causas no penales 2024",
+          "Archivos recibidos de los poderes judiciales provinciales referidos a causas no penales 2025",
+          "Índice de archivos recibidos de los poderes judiciales provinciales referidos a justicia no penal 2023",
+          "Índice de archivos recibidos de los poderes judiciales provinciales referidos a causas no penales 2018",
+          "Índice de archivos recibidos de los poderes judiciales provinciales referidos a justicia no penal 2024",
+          "Archivos recibidos de los poderes judiciales provinciales referidos a causas no penales 2022",
+          "Archivos recibidos de los poderes judiciales provinciales referidos a causas no penales 2020",
+          "Índice de archivos recibidos de los poderes judiciales provinciales referidos a justicia no penal 2019",
+          "Índice de archivos recibidos de los poderes judiciales provinciales referidos a justicia no penal 2020",
+          "Archivos recibidos de los poderes judiciales provinciales referidos a causas no penales 2021",
+          "Índice de archivos recibidos de los poderes judiciales provinciales referidos a justicia no penal 2022",
+          "Archivos recibidos de los poderes judiciales provinciales referidos a causas no penales 2019"
+        ],
+        "key": "justicia-archivos-recibidos-poderes-judiciales-provinciales---justicia-no-penal",
+        "type": "abiertos"
+      },
+      {
+        "title": "Archivos recibidos de los poderes judiciales provinciales - Justicia penal",
+        "resources": [
+          "Archivos recibidos de los poderes judiciales provinciales referidos a causas penales 2019",
+          "Índice de archivos recibidos de los poderes judiciales provinciales referidos a causas penales 2022",
+          "Índice de archivos recibidos de los poderes judiciales provinciales referidos a causas penales 2024",
+          "Archivos recibidos de los poderes judiciales provinciales referidos a causas penales 2022",
+          "Archivos recibidos de los poderes judiciales provinciales referidos a causas penales 2024",
+          "Índice de archivos recibidos de los poderes judiciales provinciales referidos a causas penales 2019",
+          "Archivos recibidos de los poderes judiciales provinciales referidos a causas penales 2018",
+          "Índice de archivos recibidos de los poderes judiciales provinciales referidos a causas penales 2018",
+          "Archivos recibidos de los poderes judiciales provinciales referidos a causas penales 2021",
+          "Índice de archivos recibidos de los poderes judiciales provinciales referidos a causas penales 2020",
+          "Índice de archivos recibidos de los poderes judiciales provinciales referidos a causas penales 2021",
+          "Archivos recibidos de los poderes judiciales provinciales referidos a causas penales 2023",
+          "Índice de archivos recibidos de los poderes judiciales provinciales referidos a causas penales 2023",
+          "Archivos recibidos de los poderes judiciales provinciales referidos a causas penales 2020"
+        ],
+        "key": "justicia-archivos-recibidos-poderes-judiciales-provinciales---justicia-penal",
+        "type": "abiertos"
+      },
+      {
+        "key": "base-saij-de-normativa-provincial",
+        "title": "Base SAIJ de Normativa Provincial",
+        "org": "Ministerio de Justicia y Derechos Humanos",
+        "desc": "Base de documentos digitales normativos provinciales publicados en el Boletín Oficial de la Provincia de Buenos Aires. Fecha de actualización: 22 de octubre de 2025.",
+        "type": "pba"
+      },
+      {
+        "title": "Base SAIJ de Normativa Provincial",
+        "resources": [
+          "Base SAIJ de Normativa Provincial - Gráficos estadísticos",
+          "Base SAIJ de Normativa Provincial"
+        ],
+        "key": "justicia-base-saij-normativa-provincial",
+        "type": "abiertos"
+      },
+      {
+        "key": "centros-de-acceso-a-la-justicia-cajus",
+        "title": "Centros de Acceso a la Justicia (CAJUS)",
+        "org": "Ministerio de Justicia y Derechos Humanos",
+        "desc": "Centros de acceso a la justicia georreferenciados. Contiene los campos: nombre, dirección, horario, teléfono y mail. Fecha de actualización: 18 de febrero de 2026. ",
+        "type": "pba"
+      },
+      {
+        "key": "centros-de-asesorias-a-menores",
+        "title": "Centros de Asesorías a Menores",
+        "org": "Ministerio de Justicia y Derechos Humanos",
+        "desc": "Datos correspondientes a los centros de asesorías a menores. Contiene los campos: nombre, municipio, localidad, departamento, dirección, teléfono, latitud y longitud.",
+        "type": "pba"
+      },
+      {
+        "key": "centros-de-asistencia-a-las-victimas-cav",
+        "title": "Centros de Asistencia a las Víctimas (CAV)",
+        "org": "Ministerio de Justicia y Derechos Humanos",
+        "desc": "Centros de atención a las víctimas georreferenciados. Contiene los campos: nombre, dirección, teléfono.",
+        "type": "pba"
+      },
+      {
+        "key": "cavaj",
+        "title": "Centros de asistencia a víctimas y acceso a justicia (CAVAJ)",
+        "org": "Ministerio de Justicia y Derechos Humanos",
+        "desc": "Centros de asistencia georreferenciados que contienen los campos: Dependencia, Organismo, Nombre, Dirección, Teléfono y Contacto.\r\nFecha de actualizacion: 26 de febrero de 2026. ",
+        "type": "pba"
+      },
+      {
+        "key": "comisarias",
+        "title": "Comisarías",
+        "org": "Ministerio de Seguridad",
+        "desc": "Comisarías georreferenciadas que contienen los campos: municipio, dependencia, teléfono, dirección, latitud y longitud. ",
+        "type": "pba"
+      },
+      {
+        "key": "comisarias-de-la-mujer",
+        "title": "Comisarías de la Mujer",
+        "org": "Ministerio de Seguridad",
+        "desc": "Comisarías de la mujer georreferenciadas. Contiene los campos: municipio, localidad, coordinación, dirección, teléfono, latitud y longitud.",
+        "type": "pba"
+      },
+      {
+        "key": "comunidades-indigenas",
+        "title": "Comunidades Indígenas",
+        "org": "Ministerio de Justicia y Derechos Humanos",
+        "desc": "Detalle y ubicación de las comunidades indígenas con información de personería jurídica. Fecha de actualización: 13 de mayo de 2022.",
+        "type": "pba"
+      },
+      {
+        "title": "Datos estructurales de poderes judiciales y ministerios públicos provinciales",
+        "resources": [
+          "Datos estructurales 2021",
+          "Datos estructurales 2017",
+          "Recursos humanos 2020",
+          "Recursos humanos 2019",
+          "Recursos humanos 2017",
+          "Recursos humanos 2018",
+          "Datos estructurales 2022",
+          " Recursos humanos 2022",
+          "Datos estructurales 2019",
+          "Recursos humanos 2021",
+          "Datos estructurales 2020",
+          "Datos estructurales 2018"
+        ],
+        "key": "justicia-datos-estructurales-poderes-judiciales-ministerios-publicos-provinciales",
+        "type": "abiertos"
+      },
+      {
+        "title": "Delitos contra la propiedad. Sistema de Alerta Temprana. Estadísticas criminales",
+        "resources": [
+          "Estadísticas criminales de delitos contra la propiedad en la República Argentina por departamentos (panel). (.xlsx).",
+          "Estadísticas criminales de delitos contra la propiedad en la República Argentina por departamentos (panel) (.dta).",
+          "Estadísticas criminales de delitos contra la propiedad en la República Argentina por departamentos (panel) (.csv).",
+          "Estadísticas criminales de delitos contra la propiedad en la República Argentina por departamentos (panel) (.sav)."
+        ],
+        "key": "seguridad-delitos-contra-propiedad-sistema-alerta-temprana-estadisticas-criminales",
+        "type": "abiertos"
+      },
+      {
+        "key": "ex-centros-clandestinos-de-detencion",
+        "title": "Ex Centros Clandestinos de Detención",
+        "org": "Ministerio de Justicia y Derechos Humanos",
+        "desc": "Ex Centros Clandestinos de Detención.",
+        "type": "pba"
+      },
+      {
+        "key": "mapa-judicial",
+        "title": "Mapa Judicial",
+        "org": "Ministerio de Justicia y Derechos Humanos",
+        "desc": "Dependencias Judiciales. Contiene los campos: departamento judicial, unidad, oficina, dirección, teléfono, email.",
+        "type": "pba"
+      },
+      {
+        "title": "Ministerios públicos - Casos",
+        "resources": [
+          "Ministerios Públicos - provincias y años disponibles"
+        ],
+        "key": "justicia-ministerios-publicos---casos",
+        "type": "abiertos"
+      },
+      {
+        "key": "oficinas-patronato",
+        "title": "Oficinas Patronato de Liberados",
+        "org": "Ministerio de Justicia y Derechos Humanos",
+        "desc": "Oficinas de Patronato de Libertados. Contiene los campos: nombre, municipio, dirección, cargo, teléfonos, horario, dependencia.",
+        "type": "pba"
+      },
+      {
+        "title": "Oralidad en los procesos civiles",
+        "resources": [
+          "Oralidad en los procesos civiles - Buenos Aires"
+        ],
+        "key": "justicia-oralidad-procesos-civiles",
+        "type": "abiertos"
+      },
+      {
+        "key": "personas-detenidas-desaparecidas-de-la-provincia-de-buenos-aires",
+        "title": "Personas Detenidas Desaparecidas de la Provincia de Buenos Aires",
+        "org": "Ministerio de Justicia y Derechos Humanos",
+        "desc": "Detalle de víctimas y Personas Detenidas Desaparecidas de la Provincia de Buenos Aires.",
+        "type": "pba"
+      },
+      {
+        "key": "personas-condenadas-por-delitos-de-lesa-humanidad",
+        "title": "Personas condenadas por delitos de Lesa Humanidad",
+        "org": "Ministerio de Justicia y Derechos Humanos",
+        "desc": "Personas condenadas por delitos de lesa humanidad.",
+        "type": "pba"
+      },
+      {
+        "title": "Poderes judiciales - Causas no penales",
+        "resources": [
+          "Causas no penales en los Poderes Judiciales Provinciales - Gráficos estadísticos",
+          "Poderes Judiciales - provincias y años disponibles - causas no penales"
+        ],
+        "key": "justicia-poderes-judiciales---causas-no-penales",
+        "type": "abiertos"
+      },
+      {
+        "title": "Poderes judiciales - Causas penales",
+        "resources": [
+          "Causas penales en los Poderes Judiciales Provinciales - Gráficos estadísticos",
+          "Poderes Judiciales - provincias y años disponibles - causas penales"
+        ],
+        "key": "justicia-poderes-judiciales---causas-penales",
+        "type": "abiertos"
+      },
+      {
+        "key": "registro-expulsados",
+        "title": "Registro de expulsados",
+        "org": "Ministerio de Seguridad",
+        "desc": "Detalles del Registro de Expulsados. Periodo 1966-2025. Fecha de actualización: 26 de enero de 2026.",
+        "type": "pba"
+      },
+      {
+        "title": "SNIC - Departamental. Estadísticas criminales en la República Argentina por departamentos",
+        "resources": [
+          "Estadísticas criminales en la República Argentina por departamentos (panel) (.csv).",
+          "Estadísticas criminales en la República Argentina por departamentos (panel) (.dta).",
+          "Estadísticas criminales en la República Argentina por departamentos por mes y sexo (panel) (.dta).",
+          "Estadísticas criminales en la República Argentina por departamentos y mes (panel) (.csv).",
+          "Estadísticas criminales en la República Argentina por departamentos por mes y sexo (panel) (.sav).",
+          "Estadísticas criminales en la República Argentina por departamentos (panel) (.sav).",
+          "Estadísticas criminales en la República Argentina por departamentos (panel) (.xlsx)."
+        ],
+        "key": "seguridad-snic---departamental-estadisticas-criminales-republica-argentina-por-departamentos",
+        "type": "abiertos"
+      },
+      {
+        "title": "SNIC - Provincial. Estadísticas criminales en la República Argentina por provincias",
+        "resources": [
+          "Informe provincial. Estadísticas criminales en la provincia de Jujuy 2021.",
+          "Estadísticas criminales en la República Argentina por provincias (panel) (.csv).",
+          "Informe regional. Estadísticas criminales en la región Cuyo 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Río Negro 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de Tierra del Fuego 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de Buenos Aires 2022.",
+          "Informe regional. Estadísticas criminales en la región Patagonia 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Neuquén 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de San Juan 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Córdoba 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Río Negro 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de Tucumán 2021.",
+          "Estadísticas criminales en la República Argentina por provincias (panel) (.sav).",
+          "Informe provincial. Estadísticas criminales en la provincia de La Pampa 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de Neuquén 2021.",
+          "Informe regional. Estadísticas criminales en la región Patagonia 2022.",
+          "Tasas (cada 100 mil habitantes) de víctimas de delitos en la República Argentina por provincias (series).",
+          "Tasas (cada 100 mil habitantes) de hechos delictivos contra el Estado en la República Argentina por provincias (series).",
+          "Estadísticas criminales en la República Argentina por provincias (panel) (.dta).",
+          "Informe provincial. Estadísticas criminales en la provincia de Santa Cruz 2023.",
+          "Hechos delictivos contra las personas, el honor, la integridad sexual y la libertad en la República Argentina por provincias (series).",
+          "Informe provincial. Estadísticas criminales en la provincia de Chubut 2021.",
+          "Informe provincial. Estadísticas criminales en la Ciudad Autónoma de Buenos Aires 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de La Rioja 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de Buenos Aires 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Buenos Aires 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de Córdoba 2022.",
+          "Tasas (cada 100 mil habitantes) de hechos delictivos contra la propiedad en la República Argentina por provincias (series).",
+          "Informe provincial. Estadísticas criminales en la provincia de Formosa 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de Chaco 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de Salta 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de Formosa 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de Salta 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Catamarca 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de Neuquén 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de Misiones 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Tucumán 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de La Pampa 2023.",
+          "Informe provincial. Estadísticas criminales en la Ciudad Autónoma de Buenos Aires 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Río Negro 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Entre Ríos 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Mendoza 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Entre Ríos 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de Corrientes 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Mendoza 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de La Pampa 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Entre Ríos 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de San Juan 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de Corrientes 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de San Luis 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de La Rioja 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Santa Fe 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Santa Cruz 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Santiago del Estero 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de Santa Fe 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de Tierra del Fuego 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de Jujuy 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de Santiago del Estero 2021.",
+          "Informe regional. Estadísticas criminales en la región NOA 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de Santa Cruz 2022.",
+          "Tasas (cada 100 mil habitantes) de hechos delictivos contra las personas, el honor, la integridad sexual y la libertad en la República Argentina por provincias (series).",
+          "Informe regional. Estadísticas criminales en la región Centro 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de Tucumán 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de Santiago del Estero 2023.",
+          "Informe provincial. Estadísticas criminales en la Ciudad Autónoma de Buenos Aires 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de Tierra del Fuego 2021.",
+          "Hechos delictivos contra la propiedad en la República Argentina por provincias (series).",
+          "Informe provincial. Estadísticas criminales en la provincia de San Luis 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Chubut 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de Jujuy 2023.",
+          "Víctimas de delitos en la República Argentina por provincias (series).",
+          "Informe provincial. Estadísticas criminales en la provincia de Corrientes 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de La Rioja 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de Mendoza 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de Santa Fe 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de Misiones 2022.",
+          "Informe regional. Estadísticas criminales en la región NEA 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Formosa 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Chubut 2022.",
+          "Informe regional. Estadísticas criminales en la región Cuyo 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de Salta 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de San Juan 2022.",
+          "Informe provincial. Estadísticas criminales en la provincia de Catamarca 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de Misiones 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de Chaco 2021.",
+          "Estadísticas criminales en la República Argentina por provincias (panel) (.xlsx).",
+          "Hechos delictivos contra el Estado, Ley 27.737 (estupefacientes) y Leyes especiales, en la República Argentina por provincias (series).",
+          "Informe provincial. Estadísticas criminales en la provincia de Chaco 2023.",
+          "Informe provincial. Estadísticas criminales en la provincia de San Luis 2022.",
+          "Informe regional. Estadísticas criminales en la región NOA 2021.",
+          "Informe regional. Estadísticas criminales en la región Centro 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Catamarca 2021.",
+          "Informe provincial. Estadísticas criminales en la provincia de Córdoba 2023.",
+          "Informe regional. Estadísticas criminales en la región NEA 2022."
+        ],
+        "key": "seguridad-snic---provincial-estadisticas-criminales-republica-argentina-por-provincias",
+        "type": "abiertos"
+      },
+      {
+        "key": "sentencias-lesa-humanidad",
+        "title": "Sentencias en Juicios de Lesa Humanidad",
+        "org": "Ministerio de Justicia y Derechos Humanos",
+        "desc": "Detalle de las sentencias en juicios por delitos de lesa humanidad.",
+        "type": "pba"
+      },
+      {
+        "key": "unidades-penitenciarias",
+        "title": "Unidades Penitenciarias",
+        "org": "Ministerio de Justicia y Derechos Humanos",
+        "desc": "Unidades penitenciarias de la Provincia de Buenos Aires. Incluye datos de georreferencia y contiene los campos: municipio, objeto, nombre,  latitud y longitud. Fecha de actualización: 18/02/2026. ",
+        "type": "pba"
+      }
+    ]
+  },
+  {
+    "category": "Medio Ambiente y Territorio",
+    "datasets": [
+      {
+        "key": "centros-de-almacenamiento-transitorio-de-envases-fitosanitarios",
+        "title": "Centros de almacenamiento transitorio de envases de productos fitosanitarios",
+        "org": "Ministerio de Ambiente",
+        "desc": "Se presentan los centros de almacenamiento transitorio de envases de productos fitosanitarios.",
+        "type": "pba"
+      },
+      {
+        "title": "Conservación y  manejo de bosques nativos",
+        "resources": [
+          "Evolución de OTBN provinciales y sus actualizaciones sancionadas en número"
+        ],
+        "key": "ambiente-conservacion-manejo-bosques-nativos",
+        "type": "abiertos"
+      },
+      {
+        "key": "destinos-sustentables",
+        "title": "Destinos Sustentables",
+        "org": "Ministerio de Ambiente",
+        "desc": "Se presentan los destinos sustentables según establecido en: Resolución N° 137/13, Resolución N° 138/13 y Resolución N° 139/13.\r\n Actualizado a octubre 2025.",
+        "type": "pba"
+      },
+      {
+        "title": "Emisiones de gases de efecto invernadero (GEI)",
+        "resources": [
+          "Emisiones anuales de GEI desagregadas por provincia. Periodo 2010-2022"
+        ],
+        "key": "ambiente-emisiones-gases-efecto-invernadero-gei",
+        "type": "abiertos"
+      },
+      {
+        "title": "Estado del bosque nativo",
+        "resources": [
+          "Pérdida de bosque nativo por provincia y categoría de conservación, según el OTBN-2021",
+          "Superficie de bosque nativo por categoría de conservación, declarada por cada provincia, en hectáreas"
+        ],
+        "key": "ambiente-estado-bosque-nativo",
+        "type": "abiertos"
+      },
+      {
+        "title": "Factores de Riesgo en Barrios Populares del Gran Buenos Aires",
+        "resources": [
+          "riesgo.zip"
+        ],
+        "key": "habitat-factores-riesgo-barrios-populares-gran-buenos-aires",
+        "type": "abiertos"
+      },
+      {
+        "title": "Geología y geografía",
+        "resources": [
+          "Superficie y cantidad de departamentos/comunas por jurisdicción",
+          "Superficie de montaña por provincia, en km2 y porcentaje"
+        ],
+        "key": "ambiente-geologia-geografia",
+        "type": "abiertos"
+      },
+      {
+        "title": "Glaciares",
+        "resources": [
+          "Tipo y área de glaciares por provincia",
+          "Cantidad de glaciares por provincia"
+        ],
+        "key": "ambiente-glaciares",
+        "type": "abiertos"
+      },
+      {
+        "title": "Gobernanza en evaluación ambiental",
+        "resources": [
+          "Características de los procesos de participación pública por provincia"
+        ],
+        "key": "ambiente-gobernanza-evaluacion-ambiental",
+        "type": "abiertos"
+      },
+      {
+        "title": "Incendios forestales",
+        "resources": [
+          "Cantidad de incendios reportados por provincia",
+          "Porcentaje de la superficie quemada total y por provincia del territorio PIECAS-DP. Año 2020"
+        ],
+        "key": "ambiente-incendios-forestales",
+        "type": "abiertos"
+      },
+      {
+        "title": "Infraestructura hídrica",
+        "resources": [
+          "Plantas de tratamiento por provincia",
+          "Plantas de tratamiento por tipo de tecnología y por provincia"
+        ],
+        "key": "ambiente-infraestructura-hidrica",
+        "type": "abiertos"
+      },
+      {
+        "title": "Registro de consultores en evaluación ambiental",
+        "resources": [
+          "Cantidad de consultores inscriptos en el Registro Nacional de Consultores en Evaluación Ambiental, por provincia y año",
+          "Cantidad de firmas consultoras inscriptas en el Registro Nacional de Consultores en Evaluación Ambiental, por provincia y año"
+        ],
+        "key": "ambiente-registro-consultores-evaluacion-ambiental",
+        "type": "abiertos"
+      },
+      {
+        "title": "Servicio de normalización de direcciones y unidades territoriales de Argentina",
+        "resources": [
+          "Departamentos (SHP)",
+          "Provincias (CSV)",
+          "Provincias (SHP)",
+          "Departamentos (JSON)",
+          "Departamentos (CSV)",
+          "Departamentos (GeoJSON)",
+          "Provincias (GeoJSON)",
+          "Provincias (JSON)"
+        ],
+        "key": "jgm-servicio-normalizacion-direcciones-unidades-territoriales-argentina",
+        "type": "abiertos"
+      },
+      {
+        "title": "Unidades Territoriales",
+        "resources": [
+          "Provincias",
+          "Departamentos"
+        ],
+        "key": "ign-unidades-territoriales",
+        "type": "abiertos"
+      },
+      {
+        "title": "Áreas protegidas nacionales",
+        "resources": [
+          "Áreas protegidas nacionales y provinciales, por jurisdicción"
+        ],
+        "key": "ambiente-areas-protegidas-nacionales",
+        "type": "abiertos"
+      }
+    ]
+  },
+  {
+    "category": "Gobierno, Población y Sociedad",
+    "datasets": [
+      {
+        "key": "adopciones",
+        "title": "Adopciones",
+        "org": "Ministerio de Gobierno",
+        "desc": "Adopciones mensuales de la Provincia. Periodo: enero 2020 - febrero 2026.",
+        "type": "pba"
+      },
+      {
+        "title": "Asistencia de Emergencia al Trabajo y la Producción",
+        "resources": [
+          "Beneficios por provincia - Etapa 1",
+          "Línea de financiamiento PyMEs Plus - Por provincia",
+          "Créditos tasa fija 24% - Por provincia",
+          "Beneficios por provincia - Etapa 3",
+          "Beneficios por provincia - Etapa 4",
+          "Beneficios por provincia - Etapa 2",
+          "Beneficios por provincia - Etapa 5",
+          "Créditos a tasa cero - Por provincia"
+        ],
+        "key": "jgm-asistencia-emergencia-al-trabajo-produccion",
+        "type": "abiertos"
+      },
+      {
+        "key": "beneficiarios-ips",
+        "title": "Beneficiarios IPS",
+        "org": "Instituto de Previsión Social",
+        "desc": "Detalle de la cantidad de beneficiarios del IPS por partido, beneficio, sección, tipo de beneficio y sexo. Datos actualizados al mes de noviembre de 2017.",
+        "type": "pba"
+      },
+      {
+        "key": "centros-ips",
+        "title": "Centros de atención IPS",
+        "org": "Instituto de Previsión Social",
+        "desc": "Centros georreferenciados que contienen los campos: dependencia, organismo, nombre, dirección, municipio, teléfono, contacto, horario. Fecha de actualización: octubre de 2025.",
+        "type": "pba"
+      },
+      {
+        "key": "delegaciones-rpp",
+        "title": "Delegaciones del Registro Provincial de las Personas",
+        "org": "Registro Provincial de las Personas",
+        "desc": "Delegaciones del registro de las personas, contiene los campos: municipio nombre, delegación, domicilio, localidad, trámites. Fecha de actualización: febrero 2026. ",
+        "type": "pba"
+      },
+      {
+        "title": "Estructura de población Argentina",
+        "resources": [
+          "Población identificada por provincia (Enero 2025)",
+          "Población identificada por departamento (Agosto 2024)",
+          "Población identificada por departamento (Junio 2025)",
+          "Población identificada por provincia (Agosto 2024)",
+          "Población identificada por departamento (Enero 2025)",
+          "Población identificada por provincia (Junio 2025)"
+        ],
+        "key": "renaper-estructura-poblacion-argentina",
+        "type": "abiertos"
+      },
+      {
+        "title": "Hacemos Futuro (2018-2020)",
+        "resources": [
+          "Titulares activos por mes y departamento Hacemos Futuro",
+          "Titulares únicos por año y departamento Hacemos Futuro",
+          "Titulares únicos por departamento Hacemos Futuro"
+        ],
+        "key": "desarrollo-social-hacemos-futuro-2018-2020",
+        "type": "abiertos"
+      },
+      {
+        "key": "identidad-de-genero",
+        "title": "Identidad de género",
+        "org": "Ministerio de Gobierno",
+        "desc": "Trámites de rectificación registral de género. Datos mensuales en la Provincia de Buenos Aires. Periodo: enero 2020 - febrero 2026. ",
+        "type": "pba"
+      },
+      {
+        "title": "Ingreso Familiar de Emergencia",
+        "resources": [
+          "Beneficiarios IFE - Por provincia"
+        ],
+        "key": "jgm-ingreso-familiar-emergencia",
+        "type": "abiertos"
+      },
+      {
+        "key": "inscripciones",
+        "title": "Inscripciones",
+        "org": "Ministerio de Gobierno",
+        "desc": "Inscripciones mensuales en la provincia a través del programa \"Mi derecho, mi identidad\". Periodo: enero 2020 - febrero 2026. ",
+        "type": "pba"
+      },
+      {
+        "key": "defunciones",
+        "title": "Inscripción de defunciones",
+        "org": "Registro Provincial de las Personas",
+        "desc": "Defunciones registradas mensualmente por el Registro Provincial de las Personas con información de municipio y delegación. Periodo: 2018-2019.",
+        "type": "pba"
+      },
+      {
+        "key": "linea-148",
+        "title": "Línea 148",
+        "org": "Ministerio de Gobierno",
+        "desc": "Datos de llamados a la línea 148 totales por mes. Última actualización: 5 de febrero de 2026.",
+        "type": "pba"
+      },
+      {
+        "key": "matrimonios",
+        "title": "Matrimonios y divorcios",
+        "org": "Registro Provincial de las Personas",
+        "desc": "Matrimonios registrados por el Registro Provincial de las Personas con información de municipio, delegación y tipo de matrimonio. Periodo: enero 2016 - diciembre 2019.",
+        "type": "pba"
+      },
+      {
+        "key": "metricas-web-gba",
+        "title": "Métricas web GBA",
+        "org": "Ministerio de Gobierno",
+        "desc": "Detalle de las métricas del sitio web del Gobierno de la Provincia. Última actualización: 5 de febrero de 2026.",
+        "type": "pba"
+      },
+      {
+        "key": "nacimientos",
+        "title": "Nacimientos",
+        "org": "Registro Provincial de las Personas",
+        "desc": "Nacimientos registrados mensualmente por el Registro Provincial de las Personas con información de municipio y delegación. Periodo: enero 2016 - diciembre 2019",
+        "type": "pba"
+      },
+      {
+        "title": "Nacimientos en Argentina",
+        "resources": [
+          "Nacimientos en Argentina por departamento (2012 - 2022)"
+        ],
+        "key": "renaper-nacimientos-argentina",
+        "type": "abiertos"
+      },
+      {
+        "title": "Población Nacionalizada en Argentina",
+        "resources": [
+          "Personas nacionalizadas por tipo de nacionalidad y provincia de residencia (2013-2025)"
+        ],
+        "key": "renaper-poblacion-nacionalizada-argentina",
+        "type": "abiertos"
+      },
+      {
+        "title": "Porcentaje de puestos ocupados por mujeres sobre la población joven, por sector y provincia.",
+        "resources": [
+          "Porcentaje de mujeres por provincia y letra, sector privado",
+          "Porcentaje de mujeres en el total general por provincia",
+          "Porcentaje de mujeres en el sector privado (CLAE a 2 dígitos)",
+          "Porcentaje de mujeres en el total de empresas por provincia",
+          "Porcentaje de mujeres por provincia y letra, total de empresas",
+          "Porcentaje de mujeres por provincia y letra, total general",
+          "Porcentaje de mujeres en el sector privado (total)",
+          "Porcentaje de mujeres en el total general (total)",
+          "Diccionario de claes",
+          "Porcentaje de mujeres en el total de empresas (CLAE a 2 dígitos)",
+          "Porcentaje de mujeres en el total de empresas (total)",
+          "Porcentaje de mujeres por letra, sector privado",
+          "Porcentaje de mujeres por letra, total de empresas",
+          "Porcentaje de mujeres por letra, total general",
+          "Metodología"
+        ],
+        "key": "produccion-porcentaje-puestos-ocupados-por-mujeres-sobre-poblacion-joven-por-sector-provincia",
+        "type": "abiertos"
+      },
+      {
+        "title": "Programa Nacional Primeros Años",
+        "resources": [
+          "Primeros Años, cantidades por provincia"
+        ],
+        "key": "desarrollo-social-programa-nacional-primeros-anos",
+        "type": "abiertos"
+      },
+      {
+        "title": "Puestos de trabajo asalariados registrados de la población joven por sector de actividad y provincia",
+        "resources": [
+          "Puestos de trabajo por provincia y letra, sector privado",
+          "Puestos de trabajo en el total de empresas por provincia",
+          "Puestos de trabajo en el sector privado (total)",
+          "Puestos de trabajo en el sector privado (CLAE a 2 dígitos)",
+          "Puestos de trabajo por provincia y letra, total general",
+          "Puestos de trabajo en el total general por provincia",
+          "Diccionario de claes",
+          "Puestos de trabajo en el total general (total)",
+          "Puestos de trabajo en el sector privado por provincia",
+          "Puestos de trabajo por letra, total de empresas",
+          "Puestos de trabajo en el total de empresas (total)",
+          "Puestos de trabajo por letra, total general",
+          "Puestos de trabajo por provincia y letra, total de empresas",
+          "Puestos de trabajo en el total de empresas (CLAE a 2 dígitos)",
+          "Puestos de trabajo por letra, sector privado",
+          "Metodología"
+        ],
+        "key": "produccion-puestos-trabajo-asalariados-registrados-poblacion-joven-por-sector-actividad-provincia",
+        "type": "abiertos"
+      },
+      {
+        "title": "Puestos de trabajo en la Administración Pública Nacional (APN)",
+        "resources": [
+          "Puestos de trabajo de la APN según provincia"
+        ],
+        "key": "jgm-puestos-trabajo-administracion-publica-nacional-apn",
+        "type": "abiertos"
+      },
+      {
+        "key": "reconocimientos",
+        "title": "Reconocimientos",
+        "org": "Registro Provincial de las Personas",
+        "desc": "Reconocimientos posteriores al nacimiento en la Provincia por mes y municipio. Periodo: enero 2020 - febrero 2026. Actualización: 25 de febrero de 2026. ",
+        "type": "pba"
+      },
+      {
+        "key": "resultados-electorales-nacionales",
+        "title": "Resultados Electorales Nacionales",
+        "org": "Ministerio de Gobierno",
+        "desc": "Resultados provisorios de las elecciones generales correspondientes a diputados nacionales desagregados por lista y municipio. ",
+        "type": "pba"
+      },
+      {
+        "key": "resultados-electorales-provinciales",
+        "title": "Resultados Electorales Provinciales",
+        "org": "Ministerio de Gobierno",
+        "desc": "Resultados definitivos de las Elecciones PASO entre 2011 y 2021 desagregados por cargo y municipio. Incluye votos a gobernador, senadores provinciales, diputados provinciales, concejales e intendente.",
+        "type": "pba"
+      },
+      {
+        "title": "Salario mediano de la población joven por sector de actividad y provincia",
+        "resources": [
+          "Salario mediano en el sector privado por provincia",
+          "Salario mediano en el total de empresas (CLAE a 2 dígitos)",
+          "Salario mediano en el total general por provincia",
+          "Salario mediano por provincia y letra, sector privado",
+          "Diccionario de claes",
+          "Salario mediano en el sector privado (total)",
+          "Salario mediano por letra, sector privado",
+          "Salario mediano en el total de empresas (total)",
+          "Salario mediano por letra, total empresas.",
+          "Salario mediano en el total general (total)",
+          "Salario mediano por letra, total general",
+          "Salario mediano por provincia y letra, total empresas",
+          "Salario mediano en el total de empresas por provincia",
+          "Salario mediano en el sector privado (CLAE a 2 dígitos)",
+          "Salario mediano por provincia y letra, total general",
+          "Metodología"
+        ],
+        "key": "produccion-salario-mediano-poblacion-joven-por-sector-actividad-provincia",
+        "type": "abiertos"
+      },
+      {
+        "title": "Salario promedio de la población joven por sector de actividad y provincia",
+        "resources": [
+          "Salario promedio en el sector privado por provincia",
+          "Salario promedio en el total general (total)",
+          "Salario promedio por provincia y letra, sector privado",
+          "Salario promedio en el sector privado (total)",
+          "Salario promedio por provincia y letra, total general",
+          "Salario promedio por letra, sector privado",
+          "Salario promedio en el total general por provincia",
+          "Diccionario de claes",
+          "Salario promedio en el total de empresas (CLAE a 2 dígitos)",
+          "Salario promedio en el total de empresas (total)",
+          "Salario promedio por letra, total de empresas",
+          "Salario promedio por letra, total general",
+          "Salario promedio por provincia y letra, total de empresas ",
+          "Salario promedio en el sector privado (CLAE a 2 dígitos)",
+          "Salario promedio en el total de empresas por provincia",
+          "Metodología"
+        ],
+        "key": "produccion-salario-promedio-poblacion-joven-por-sector-actividad-provincia",
+        "type": "abiertos"
+      },
+      {
+        "key": "secciones-electorales",
+        "title": "Secciones electorales",
+        "org": "Junta Electoral ",
+        "desc": "Secciones electorales y listado de partidos. Formato shapefile, geojson y kml (EPSG:4326. Proyección WGS 84). Contienen la ubicación de las secciones electorales de la Provincia de Buenos Aires. ",
+        "type": "pba"
+      },
+      {
+        "key": "uniones-convivenciales",
+        "title": "Uniones convivenciales",
+        "org": "Registro Provincial de las Personas",
+        "desc": "Uniones convivenciales celebradas por el Registro Provincial de las Personas con información de año, mes, municipio, delegación y tipo de matrimonio. Periodo: enero 2018 - diciembre 2019.\r\n",
+        "type": "pba"
+      }
+    ]
+  },
+  {
+    "category": "Otros",
+    "datasets": [
+      {
+        "title": "Ahora 12 - Discontinuado",
+        "resources": [
+          "Ahora 12: cantidad de operaciones por provincia y por rubro (panel)",
+          "Ahora 12: cantidad de operaciones por provincia y por rubro (series)",
+          "Ahora 12: ventas a precios corrientes por provincia y por rubro (panel)",
+          "Ahora 12: ventas a precios corrientes por provincia y por rubro (series)"
+        ],
+        "key": "otros-ahora-12---discontinuado",
+        "type": "abiertos"
+      },
+      {
+        "title": "Análisis de distribución espacial de los dispositivos de la red sedronar - 2023",
+        "resources": [
+          "Dispositivos de la red Sedronar y distancia a barrios populares. Área Metropolitana de Buenos Aires",
+          "Cantidad de dispositivos de la Red federal de Sedronar por provincias, octubre 2023 que se encuentren a 250 metros de un barrio popular",
+          "Distribución espacial de dispositivos por provincia",
+          "Cantidad de dispositivos de la Red federal de Sedronar por provincias, octubre 2023 que se encuentren dentro de un barrio popular",
+          "Cantidad de dispositivos de la Red federal de Sedronar por provincias, octubre 2023 que se encuentren a 1 km de un barrio popular",
+          "Dispositivos de la red Sedronar y distancia a barrios populares. General Pueyrredón, Buenos Aires",
+          "Distribución de dispositivos de la sedronar y distancia de los barrios populares del departamento Capital de Córdoba",
+          "Distribución de dispositivos de la sedronar y distancia de los barrios populares del departamento General Puyrredón, Buenos Aires",
+          "Cantidad de dispositivos de la Red federal de Sedronar por provincias, octubre 2023 que se encuentren a 100 metros de un barrio popular",
+          "Cantidad de dispositivos de la red Sedronar que se encuentran dentro de un barrio popular según departamento/partido",
+          "Cantidad de dispositivos de la Red federal de Sedronar por provincias, octubre 2023 que se encuentren a 500 metros de un barrio popular",
+          "Dispositivos de la red Sedronar en barrio RENABAP. Área Metropolitana de Buenos Aires",
+          "Cantidad de dispositivos de la Red federal de Sedronar por provincias, octubre 2023"
+        ],
+        "key": "sedronar-analisis-distribucion-espacial-dispositivos-red-sedronar---2023",
+        "type": "abiertos"
+      },
+      {
+        "title": "Archivo 1996-2016: Indicadores de Empresas privadas (OEDE)",
+        "resources": [
+          "Tasas anuales de movilidad de empresas a nivel provincial según sector a nivel letra e indicador de movilidad (panel)",
+          "Cantidad anual de empresas a nivel provincial según sector a nivel letra (panel)",
+          "Cantidad anual de empresas a nivel provincial según sector a dos dígitos (panel)",
+          "Cantidad anual de empresas a nivel provincial según sector a nivel letra y localización (panel)",
+          "Cantidad anual de empresas a nivel provincial según sector a cuatro dígitos (panel)",
+          "Cantidad anual de empresas a nivel provincial según sector a nivel letra e indicador de movilidad (panel)"
+        ],
+        "key": "produccion-archivo-1996-2016-indicadores-empresas-privadas-oede",
+        "type": "abiertos"
+      },
+      {
+        "title": "Archivo 2002-2019: Indicadores Sectoriales de la Construcción",
+        "resources": [
+          "Construcción: cantidad de escrituraciones en CABA y Provincia de Buenos Aires (panel)",
+          "Construcción: valor de las escrituraciones en CABA y Provincia de Buenos Aires (series)",
+          "Construcción: valor de las escrituraciones en CABA y Provincia de Buenos Aires (panel)",
+          "Construcción: cantidad de escrituraciones en CABA y Provincia de Buenos Aires (series)"
+        ],
+        "key": "produccion-archivo-2002-2019-indicadores-sectoriales-construccion",
+        "type": "abiertos"
+      },
+      {
+        "title": "Asalariados registrados del sector privado, por provincia.",
+        "resources": [
+          "Asalariados registrados del sector privado, por provincia. Valores con estacionalidad",
+          "Asalariados registrados del sector privado, por provincia. Valores sin estacionalidad"
+        ],
+        "key": "sspm-asalariados-registrados-sector-privado-por-provincia",
+        "type": "abiertos"
+      },
+      {
+        "title": "Asistencia de Emergencia al Trabajo y la Producción (ATP)",
+        "resources": [
+          "Beneficios por provincia - Etapa 1",
+          "Línea de financiamiento PyMEs Plus - Por provincia",
+          "Créditos tasa fija 24% - Por provincia",
+          "Monto en pesos abonado a las empresas de un determinado sector en un determinado partido/departamento",
+          "Beneficios por provincia - Etapa 3",
+          "Créditos a tasa cero - por provincia",
+          "Beneficios por provincia - Etapa 4",
+          "Beneficios por provincia - Etapa 2",
+          "Beneficios por provincia - Etapa 5"
+        ],
+        "key": "produccion-asistencia-emergencia-al-trabajo-produccion-atp",
+        "type": "abiertos"
+      },
+      {
+        "title": "Base de Datos de Alojamientos Colectivos en Argentina",
+        "resources": [
+          "Plazas, habitaciones y establecimientos de alojamiento turístico disponibles por provincia según categoría",
+          "Plazas, habitaciones y establecimientos de alojamiento turístico disponibles por provincia"
+        ],
+        "key": "turismo-base-datos-alojamientos-colectivos-argentina",
+        "type": "abiertos"
+      },
+      {
+        "key": "bomberos-voluntarios",
+        "title": "Bomberos Voluntarios",
+        "org": "Poder Ejecutivo Nacional",
+        "desc": "Formatos .shp, .geojson y kml (EPSG:4326. Proyección WGS 84). Detalle de las asociaciones y federaciones de asociaciones de bomberos voluntarios en la Provincia.",
+        "type": "pba"
+      },
+      {
+        "title": "Cambios de género",
+        "resources": [
+          "Tramites de cambio de género en el DNI por provincia, género y edad al momento del trámite (2011 - mayo 2024)",
+          "Tramites de cambio de género en el DNI por año de cambio, provincia y género (2011 - mayo 2024)",
+          "Población que cambió su género en el DNI por provincia, género y edad (2011 - mayo 2024)"
+        ],
+        "key": "renaper-cambios-genero",
+        "type": "abiertos"
+      },
+      {
+        "title": "Canasta básica alimentaria y total. Ciudad de Buenos Aires",
+        "resources": [
+          "Canasta básica alimentaria y total. Ciudad de Buenos Aires"
+        ],
+        "key": "sspm-canasta-basica-alimentaria-total-ciudad-buenos-aires",
+        "type": "abiertos"
+      },
+      {
+        "title": "Certificado Único Habilitante para Circulación (CUHC) - VERANO",
+        "resources": [
+          "Cantidad de personas por fecha de ingreso, provincia de origen y destino",
+          "Media de viajeros por certificado emitido según provincia y localidad de destino",
+          "Certificados emitidos y cantidad de personas por fecha de ingreso, provincia y localidad de destino",
+          "Provincia y localidad de destino por duración del viaje"
+        ],
+        "key": "turismo-certificado-unico-habilitante-para-circulacion-cuhc---verano",
+        "type": "abiertos"
+      },
+      {
+        "key": "circuitos-electorales",
+        "title": "Circuitos electorales",
+        "org": "Poder Judicial de la Nación",
+        "desc": "Circuitos electorales de la provincia de Buenos Aires con su descripción y ubicación.",
+        "type": "pba"
+      },
+      {
+        "title": "Comercio de Minerales de Argentina (SIACAM)",
+        "resources": [
+          "Exportaciones mineras de Argentina por provincia"
+        ],
+        "key": "mineria-comercio-minerales-argentina-siacam",
+        "type": "abiertos"
+      },
+      {
+        "title": "Complejidad Económica Provincial",
+        "resources": [
+          "Productos exportados por provincia",
+          "Productos con potencial exportador, por provincia",
+          "Metodología"
+        ],
+        "key": "produccion-complejidad-economica-provincial",
+        "type": "abiertos"
+      },
+      {
+        "title": "Consejos participativos",
+        "resources": [
+          "Acta Consejo Participativo Regional - Provincia de Buenos Aires- Junio 2016"
+        ],
+        "key": "pami-consejos-participativos",
+        "type": "abiertos"
+      },
+      {
+        "title": "Costo Salarial  promedio del sector privado, por provincia",
+        "resources": [
+          "Costo Salarial  promedio del sector privado por provincia. En pesos. Valores trimestrales",
+          "Costo Salarial  promedio del sector privado por provincia. En pesos. Valores anuales."
+        ],
+        "key": "sspm-costo-salarial-promedio-sector-privado-por-provincia",
+        "type": "abiertos"
+      },
+      {
+        "title": "Cuenta A.I.F. - Base Devengado. Sector Público Argentino",
+        "resources": [
+          "Finanzas Públicas. Cuenta A.I.F. - Base devengado. Provincias y C.A.B.A (1977-1986)",
+          "Finanzas Públicas. Cuenta A.I.F. - Base devengado. Provincias y C.A.B.A (1961-1976)",
+          "Finanzas Públicas. Cuenta A.I.F. - Base devengado. Provincias y C.A.B.A (1987-1989)",
+          "Finanzas Públicas. Cuenta A.I.F. - Base devengado. Provincias y C.A.B.A (1990-1992)"
+        ],
+        "key": "sspm-cuenta-aif---base-devengado-sector-publico-argentino",
+        "type": "abiertos"
+      },
+      {
+        "title": "Distribución de apellidos en Argentina",
+        "resources": [
+          "Apellidos más frecuentes por provincia (Diciembre 2021)",
+          "Apellidos por provincia de residentes en Argentina (Diciembre 2021)"
+        ],
+        "key": "renaper-distribucion-apellidos-argentina",
+        "type": "abiertos"
+      },
+      {
+        "title": "Distribución del empleo formal en el AMBA",
+        "resources": [
+          "Radios censales en el Área Metropolitana de Buenos Aires (AMBA)"
+        ],
+        "key": "produccion-distribucion-empleo-formal-amba",
+        "type": "abiertos"
+      },
+      {
+        "title": "Distribución geográfica de los establecimientos productivos",
+        "resources": [
+          "Datos de establecimientos por departamento y actividad",
+          "Datos de establecimientos por departamento, actividad y género",
+          "Diccionario de departamentos"
+        ],
+        "key": "produccion-distribucion-geografica-establecimientos-productivos",
+        "type": "abiertos"
+      },
+      {
+        "title": "Documentación preservada de Archivos de las Fuerzas Armadas",
+        "resources": [
+          "Departamento de Estudios Históricos de la Fuerza Aérea: Repertorio de documentación",
+          "Departamento de Estudios Históricos Navales: Repertorio de documentación"
+        ],
+        "key": "defensa-documentacion-preservada-archivos-fuerzas-armadas",
+        "type": "abiertos"
+      },
+      {
+        "key": "edificios-religiosos",
+        "title": "Edificios religiosos",
+        "org": "IDEBA",
+        "desc": "Edificios religiosos dentro de la Provincia de Buenos Aires, incluye referencia geográfica: datos de latitud y longitud.",
+        "type": "pba"
+      },
+      {
+        "title": "Empleos generados en proyectos de litio (SIACAM)",
+        "resources": [
+          "Empleos generados en proyectos de litio, por provincia y género"
+        ],
+        "key": "mineria-empleos-generados-proyectos-litio-siacam",
+        "type": "abiertos"
+      },
+      {
+        "title": "Encuesta de Turismo Internacional (ETI)",
+        "resources": [
+          "Turistas, pernoctes y gasto (en el país y en la provincia), por provincia de destino y destinos visitados",
+          "Turistas y pernoctes según motivo de viaje, por provincia de destino y destinos visitados",
+          "Turistas no residentes, pernoctaciones y estadía media trimestral en el Puerto de Buenos Aires",
+          "Turistas residentes, pernoctaciones y estadía media trimestral en el Puerto de Buenos Aires",
+          "Turistas y pernoctes según origen por provincia de destino y destinos visitados",
+          "Turistas y pernoctes según principal tipo de alojamiento utilizado en su viaje a la Argentina, por provincia de destino y destinos visitados"
+        ],
+        "key": "turismo-encuesta-turismo-internacional-eti",
+        "type": "abiertos"
+      },
+      {
+        "title": "Equipamiento científico-tecnológico",
+        "resources": [
+          "Equipamiento científico-tecnológico según tipo de institución y provincia"
+        ],
+        "key": "mincyt-equipamiento-cientifico-tecnologico",
+        "type": "abiertos"
+      },
+      {
+        "title": "Espacios de género en las carteras de producción provinciales",
+        "resources": [
+          "DATASET Espacios de Género en las provincias"
+        ],
+        "key": "produccion-espacios-genero-carteras-produccion-provinciales",
+        "type": "abiertos"
+      },
+      {
+        "title": "Esquema Ahorro - Inversión - Financiamiento. Ex Cajas Provinciales. Base Caja.",
+        "resources": [
+          "Ex Cajas Provinciales. Valores trimestrales 1993-2006",
+          "Ex Cajas Provinciales. Valores trimestrales 2007-2014",
+          "Ex Cajas Provinciales. Valores trimestrales 2017",
+          "Ex Cajas Provinciales. Valores anuales 2007-2014",
+          "Ex Cajas Provinciales. Valores mensuales 2007-2014",
+          "Ex Cajas Provinciales. Valores mensuales 2017",
+          "Ex Cajas Provinciales. Valores anuales 1993-2006",
+          "Ex Cajas Provinciales. Valores anuales 2017",
+          "Ex Cajas Provinciales. Valores mensuales 1993-2006"
+        ],
+        "key": "sspm-esquema-ahorro---inversion---financiamiento-ex-cajas-provinciales-base-caja",
+        "type": "abiertos"
+      },
+      {
+        "key": "estimaciones-agro",
+        "title": "Estimaciones agrícolas",
+        "org": "Poder Ejecutivo Nacional",
+        "desc": "Serie histórica de cultivos por campaña y partido de la provincia. Campañas 1969/1970 - 2024/2025.  Fecha de actualización: 12 de febrero de 2026. ",
+        "type": "pba"
+      },
+      {
+        "title": "Estructura de poblacion de origen extranjero",
+        "resources": [
+          "Población identificada de origen extranjero por provincia (Enero 2025)",
+          "Población identificada de origen extranjero por provincia (Agosto 2024)",
+          "Población identificada de origen extranjero por provincia (Junio 2025)"
+        ],
+        "key": "renaper-estructura-poblacion-origen-extranjero",
+        "type": "abiertos"
+      },
+      {
+        "title": "GPS Empresas - Discontinuado",
+        "resources": [
+          "GPS Empresas: cantidad de empresas por provincia, serie trimestral (series)",
+          "GPS Empresas: cantidad de empresas por provincia, departamento y sector (panel)",
+          "GPS Empresas: cantidad de empresas por provincia, serie anual  (panel)",
+          "GPS Empresas: cantidad de empresas por provincia y sector de actividad (panel)",
+          "GPS Empresas:cantidad de empresas por provincia, sector de actividad y tamaño (panel)",
+          "GPS Empresas: cantidad de empresas por provincia, serie trimestral  (panel)",
+          "GPS Empresas: cantidad de empresas por provincia, serie anual  (series)",
+          "GPS Empresas:cantidad de empresas por provincia y departamento (panel)"
+        ],
+        "key": "otros-gps-empresas---discontinuado",
+        "type": "abiertos"
+      },
+      {
+        "title": "Gasto Público Consolidado",
+        "resources": [
+          "Gasto Público de los Gobiernos Provinciales y CABA en porcentaje del PIB",
+          "Gasto Público de los Gobiernos Provinciales y CABA en millones de pesos"
+        ],
+        "key": "sspm-gasto-publico-consolidado",
+        "type": "abiertos"
+      },
+      {
+        "title": "Indicadores Sectoriales y Provinciales",
+        "resources": [
+          "Indicadores de Automotriz y Autopartista en valores anuales, trimestrales y mensuales",
+          "Indicadores de Hidrocarburos en valores anuales, trimestrales y mensuales",
+          "Indicadores de Legumbres en valores anuales, trimestrales y mensuales",
+          "Indicadores de Vitivinicultura en valores anuales, trimestrales y mensuales",
+          "Indicadores de Limón en valores anuales, trimestrales y mensuales",
+          "Indicadores de Azúcar en valores anuales, trimestrales y mensuales",
+          "Indicadores de Cárnica - Vacuna en valores anuales, trimestrales y mensuales",
+          "Diccionario de variables",
+          "Indicadores de Salud, farmacia y equipamiento médico en valores anuales, trimestrales y mensuales",
+          "Indicadores de Láctea en valores anuales, trimestrales y mensuales",
+          "Indicadores de Industrias Culturales en valores anuales, trimestrales y mensuales",
+          "Indicadores de Comercio interno en valores anuales, trimestrales y mensuales",
+          "Indicadores de Maquinaria Agrícola en valores anuales, trimestrales y mensuales",
+          "Indicadores de Cárnica - Aviar en valores anuales, trimestrales y mensuales",
+          "Indicadores de Forestal, papel y muebles en valores anuales, trimestrales y mensuales",
+          "Indicadores de Energías alternativas en valores anuales, trimestrales y mensuales",
+          "Indicadores de Servicios Turísticos en valores anuales, trimestrales y mensuales",
+          "Indicadores de Algodonera - textil en valores anuales, trimestrales y mensuales",
+          "Indicadores de Construcción en valores anuales, trimestrales y mensuales",
+          "Indicadores de Frutícola - Cítricos dulces en valores anuales, trimestrales y mensuales",
+          "Indicadores de Trigo en valores anuales, trimestrales y mensuales",
+          "Indicadores de Té en valores anuales, trimestrales y mensuales",
+          "Indicadores de Ovinos - Lana y Carne en valores anuales, trimestrales y mensuales",
+          "Valores de indicadores sectoriales y provinciales",
+          "Indicadores de Frutícola - Fruta de carozo en valores anuales, trimestrales y mensuales",
+          "Indicadores de Telecomunicaciones en valores anuales, trimestrales y mensuales",
+          "Indicadores de Provincias en valores anuales, trimestrales y mensuales",
+          "Indicadores de Servicios de Investigación y Desarrollo en valores anuales, trimestrales y mensuales",
+          "Indicadores de Pesca y puertos pesqueros en valores anuales, trimestrales y mensuales",
+          "Indicadores de Frutícola - Manzana y pera en valores anuales, trimestrales y mensuales",
+          "Indicadores de Software y Servicios Informáticos en valores anuales, trimestrales y mensuales",
+          "Indicadores de Yerba mate en valores anuales, trimestrales y mensuales",
+          "Indicadores de Olivícola en valores anuales, trimestrales y mensuales",
+          "Indicadores de Minería Metalífera y Rocas de Aplicación en valores anuales, trimestrales y mensuales",
+          "Indicadores de Apícola en valores anuales, trimestrales y mensuales",
+          "Indicadores de Petroquímica - Plástica en valores anuales, trimestrales y mensuales",
+          "Indicadores de Arroz en valores anuales, trimestrales y mensuales",
+          "Indicadores de Maíz en valores anuales, trimestrales y mensuales",
+          "Indicadores de Tabaco en valores anuales, trimestrales y mensuales",
+          "Indicadores de Industrias Metálicas Básicas, Siderurgia y aluminio en valores anuales, trimestrales y mensuales",
+          "Indicadores de Oleaginosa en valores anuales, trimestrales y mensuales",
+          "Indicadores de Cárnica - Porcina en valores anuales, trimestrales y mensuales"
+        ],
+        "key": "ssprys-indicadores-sectoriales-provinciales",
+        "type": "abiertos"
+      },
+      {
+        "title": "Indicadores de Empleo de Trabajadores Registrados (OEDE) - Discontinuado",
+        "resources": [
+          "Empleo provincial trimestral a nivel letra (panel)",
+          "Empleo provincial trimestral a cuatro dígitos (panel)",
+          "Empleo provincial trimestral a dos dígitos (panel)"
+        ],
+        "key": "otros-indicadores-empleo-trabajadores-registrados-oede---discontinuado",
+        "type": "abiertos"
+      },
+      {
+        "title": "Indicadores de Remuneraciones de Trabajadores Registrados (OEDE) - Discontinuado",
+        "resources": [
+          "Remuneración promedio mensual a dos dígitos y por provincia (panel)",
+          "Remuneración promedio anual por sector a dos dígitos y por provincia (panel)",
+          "Remuneración promedio mensual a nivel letra y por provincia (panel)",
+          "Remuneración promedio anual a nivel letra y por provincia (panel)",
+          "Remuneración promedio mensual por sector a cuatro dígitos y por provincia (panel)"
+        ],
+        "key": "otros-indicadores-remuneraciones-trabajadores-registrados-oede---discontinuado",
+        "type": "abiertos"
+      },
+      {
+        "title": "Movilidad Residencial en Argentina",
+        "resources": [
+          "Movilidad Residencial Interprovincial en Argentina (Decenio 2012 - 2022)",
+          "Metodología Movilidad Residencial Interprovincial en Argentina",
+          "Emigrantes e inmigrantes por departamento (Decenio 2012 - 2022)",
+          "Movilidad residencial interdepartamental en Argentina (Decenio 2012 - 2022)"
+        ],
+        "key": "renaper-movilidad-residencial-argentina",
+        "type": "abiertos"
+      },
+      {
+        "title": "Nombres propios en Argentina",
+        "resources": [
+          "Nombres propios de las personas nacidas en Argentina por provincia y año (2012 - 2023)",
+          "Nombres propios más frecuentes de las personas nacidas en Argentina por provincia (2012 - 2024)",
+          "Nombres propios de las personas nacidas en Argentina por provincia y año (2012 - 2024)",
+          "Nombres propios más frecuentes de las personas nacidas en Argentina por provincia (2012 - 2023)"
+        ],
+        "key": "renaper-nombres-propios-argentina",
+        "type": "abiertos"
+      },
+      {
+        "title": "Pobreza e indigencia. EPH puntual.",
+        "resources": [
+          "Hogares y población que habita con ingresos por debajo de la línea de pobreza e indigencia. EPH puntual. Aglomerado Gran Buenos Aires."
+        ],
+        "key": "sspm-pobreza-e-indigencia-eph-puntual",
+        "type": "abiertos"
+      },
+      {
+        "title": "Porcentaje de mujeres, por provincia y sector de actividad",
+        "resources": [
+          "Porcentaje de puestos ocupado por mujeres, por provincia, total empresas",
+          "Porcentaje de puestos ocupados por mujeres, por provincia y clae2, total empresas",
+          "Diccionario de claes",
+          "Porcentaje de puestos ocupados por mujeres, por provincia y clae2, total",
+          "Porcentaje de puestos ocupado por mujeres, por provincia y letra, sector privado",
+          "Porcentaje de puestos ocupados por mujeres, por provincia y letra, total",
+          "Porcentaje de puestos ocupado por mujeres, por provincia, sector privado",
+          "Porcentaje de puestos ocupados por mujeres, por provincia, total",
+          "Porcentaje de puestos ocupado por mujeres, por provincia y clae2, sector privado",
+          "Porcentaje de puestos ocupados por mujeres, por provincia y letra, total empresas",
+          "Metodología"
+        ],
+        "key": "produccion-porcentaje-mujeres-por-provincia-sector-actividad",
+        "type": "abiertos"
+      },
+      {
+        "title": "Precios Claros - Base SEPA",
+        "resources": [
+          "Traductor de código provinciales"
+        ],
+        "key": "produccion-precios-claros---base-sepa",
+        "type": "abiertos"
+      },
+      {
+        "title": "Precios Claros - SEPA Mayorista",
+        "resources": [
+          "Traductor de Códigos provinciales"
+        ],
+        "key": "produccion-precios-claros---sepa-mayorista",
+        "type": "abiertos"
+      },
+      {
+        "title": "Previaje",
+        "resources": [
+          "Personas beneficiarias por provincia de residencia, grupos de edad y género",
+          "Viajes y viajeros por mes de inicio, provincia de origen y destino"
+        ],
+        "key": "turismo-previaje",
+        "type": "abiertos"
+      },
+      {
+        "title": "Puestos de trabajo asalariados registrados, por provincia y sector de actividad",
+        "resources": [
+          "Puestos de trabajo asalariados registrados por provincia, sector privado",
+          "Puestos de trabajo asalariados registrados por provincia y letra, total empresas",
+          "Puestos de trabajo asalariados registrados por provincia, total empresas",
+          "Puestos de trabajo asalariados registrados por provincia y clae2, total empresas",
+          "Diccionario de claes",
+          "Puestos de trabajo asalariados registrados por provincia y letra, sector privado",
+          "Puestos de trabajo asalariados registrados por provincia y por clae2, total",
+          "Puestos de trabajo asalariados registrados por provincia y letra, total",
+          "Puestos de trabajo asalariados registrados por provincia y clae2, sector privado",
+          "Puestos de trabajo asalariados registrados por provincia, total",
+          "Metodología"
+        ],
+        "key": "produccion-puestos-trabajo-asalariados-registrados-por-provincia-sector-actividad",
+        "type": "abiertos"
+      },
+      {
+        "title": "Puestos de trabajo declarados  por sector provincia",
+        "resources": [
+          "Puestos de trabajo declarados del sector privado por provincia. Miles de puestos. Valores anuales",
+          "Puestos de trabajo por provincia.  Miles de puestos. Valores trimestrales"
+        ],
+        "key": "sspm-puestos-trabajo-declarados-por-sector-provincia",
+        "type": "abiertos"
+      },
+      {
+        "title": "Remuneración neta de los puestos de trabajo del sector privado, por provincia",
+        "resources": [
+          "Remuneración neta de los puestos de trabajo por provincia. Pesos. Valores anuales.",
+          "Remuneración neta de los puestos de trabajo por provincia. Pesos. Valores trimestrales."
+        ],
+        "key": "sspm-remuneracion-neta-puestos-trabajo-sector-privado-por-provincia",
+        "type": "abiertos"
+      },
+      {
+        "title": "Remuneración total de los puestos de trabajo del sector privado, por provincia",
+        "resources": [
+          "Remuneración total de los puestos de trabajo por provincia. Pesos. Valores trimestrales",
+          "Remuneración total de los puestos de trabajo por provincia. Pesos. Valores anuales"
+        ],
+        "key": "sspm-remuneracion-total-puestos-trabajo-sector-privado-por-provincia",
+        "type": "abiertos"
+      },
+      {
+        "title": "Salarios por departamento/partido y sector de actividad",
+        "resources": [
+          "Salario mediano por departamento/partido, sector privado",
+          "Salario mediano por departamento/partido y clae2, total empresas",
+          "Diccionario de claes",
+          "Salario promedio por departamento/partido, total",
+          "Salario promedio por departamento/partido, sector público",
+          "Salario mediano por departamento/partido, total empresas",
+          "Salario promedio por departamento/partido. Datos consolidados.",
+          "Salario mediano por departamento/partido y letra, total empresas",
+          "Salario promedio por departamento/partido, total empresas",
+          "Salario mediano por departamento/partido y clae2, total",
+          "Salario promedio por departamento/partido y clae2, sector privado",
+          "Salario promedio por departamento/partido y letra, sector privado",
+          "Salario mediano por departamento/partido, total",
+          "Instructivo para abrir en Excel archivos de más de 1 millón de filas",
+          "Diccionario de departamentos",
+          "Salario mediano por departamento/partido y letra, sector privado",
+          "Salario mediano por departamento/partido, sector público",
+          "Salario promedio por departamento/partido y clae2, total",
+          "Salario promedio por departamento/partido, sector privado",
+          "Salario promedio por departamento/partido y clae2, total empresas",
+          "Salario mediano por departamento/partido y letra, total",
+          "Salario promedio por departamento/partido y letra, total",
+          "Salario mediano por departamento/partido y clae2, sector privado",
+          "Salario promedio por departamento/partido y letra, total empresas",
+          "Metodología"
+        ],
+        "key": "produccion-salarios-por-departamentopartido-sector-actividad",
+        "type": "abiertos"
+      },
+      {
+        "title": "Salarios promedio y mediano, por provincia y sector de actividad",
+        "resources": [
+          "Salario promedio por provincia, sector privado",
+          "Salario promedio por provincia y clae2, total empresas",
+          "Salario mediano por provincia, total",
+          "Diccionario de claes",
+          "Salario mediano por provincia, total empresas",
+          "Salario mediano por provincia y letra, total",
+          "Salario promedio por provincia y letra, sector privado",
+          "Salario mediano por provincia y clae2, sector privado",
+          "Salario promedio por provincia y clae2, sector privado",
+          "Salario mediano por provincia y letra, total empresas",
+          "Salario promedio por provincia, total empresas",
+          "Salario mediano por provincia y clae2, total empresas",
+          "Salario promedio por provincia y letra, total",
+          "Salario promedio por provincia y clae2, total",
+          "Salario promedio por provincia, total",
+          "Salario mediano por provincia, sector privado",
+          "Salario mediano por provincia y letra, sector privado",
+          "Salario mediano por provincia y clae2, total",
+          "Salario promedio por provincia y letra, total empresas",
+          "Metodología"
+        ],
+        "key": "produccion-salarios-promedio-mediano-por-provincia-sector-actividad",
+        "type": "abiertos"
+      },
+      {
+        "title": "Turismo Social",
+        "resources": [
+          "Solicitudes y pernoctaciones de turistas alojados en la Unidad Turística de Embalse por provincia de origen y tipo de plan",
+          "Solicitudes y pernoctaciones de turistas alojados en la Unidad Turística de Chapadmalal por provincia de origen y tipo de plan"
+        ],
+        "key": "turismo-turismo-social",
+        "type": "abiertos"
+      },
+      {
+        "key": "universidades",
+        "title": "Universidades",
+        "org": "Poder Ejecutivo Nacional",
+        "desc": "Sedes de Universidades provinciales y nacionales en la Provincia con datos georreferenciados.",
+        "type": "pba"
+      },
+      {
+        "title": "Variación interanual mediana en la facturación de las empresas",
+        "resources": [
+          "Variación interanual mediana por provincia y letra",
+          "Variación interanual mediana por departamento/partido/comuna",
+          "Variación interanual mediana por departamento/partido/comuna y letra"
+        ],
+        "key": "produccion-variacion-interanual-mediana-facturacion-empresas",
+        "type": "abiertos"
+      },
+      {
+        "title": "Áreas Protegidas Provinciales",
+        "resources": [
+          "Visitas a Parques Provinciales de Misiones",
+          "Visitas al Parque Provincial Iberá en Corrientes",
+          "Ficha Técnica: Áreas Protegidas Provinciales",
+          "Novedades",
+          "Visitas a Áreas Naturales Protegidas del Chubut según tipo de residencia del visitante",
+          "Visitas al Parque Provincial Ischigualasto en San Juan"
+        ],
+        "key": "turismo-areas-protegidas-provinciales",
+        "type": "abiertos"
+      },
+      {
+        "title": "Índice de Precios al Consumidor de la Ciudad de Buenos Aires.",
+        "resources": [
+          "Índice de Precios al Consumidor de la Ciudad de Buenos Aires. Nivel general y principales aperturas. Base Julio 2011 - Junio 2012 = 100",
+          "Índice de Precios al Consumidor de la Ciudad de Buenos Aires. Nivel general y principales aperturas. Base 2021 = 100"
+        ],
+        "key": "sspm-indice-precios-al-consumidor-ciudad-buenos-aires",
+        "type": "abiertos"
+      },
+      {
+        "title": "Índice de Precios al Consumidor de la Provincia de Córdoba. Base 2014 = 100",
+        "resources": [
+          "Índice de Precios al Consumidor de la provincia de Córdoba. Nivel general y principales aperturas. Base 2014 = 100"
+        ],
+        "key": "sspm-indice-precios-al-consumidor-provincia-cordoba-base-2014-100",
+        "type": "abiertos"
+      },
+      {
+        "title": "Índice de Precios al Consumidor de la Provincia de Mendoza. Base 2010 = 100",
+        "resources": [
+          "Índice de Precios al Consumidor de Mendoza. Nivel general y principales aperturas. Base 2010 = 100"
+        ],
+        "key": "sspm-indice-precios-al-consumidor-provincia-mendoza-base-2010-100",
+        "type": "abiertos"
+      },
+      {
+        "title": "Índice de Precios al Consumidor de la Provincia de Neuquén. Base Enero 2007 = 100",
+        "resources": [
+          "Índice de Precios al Consumidor de Neuquén. Nivel general. Base Enero 2007 = 100"
+        ],
+        "key": "sspm-indice-precios-al-consumidor-provincia-neuquen-base-enero-2007-100",
+        "type": "abiertos"
+      },
+      {
+        "title": "Índice de Precios al Consumidor de la Provincia de San Luis. Base 2003 = 100",
+        "resources": [
+          "Índice de Precios al Consumidor de San Luis. Nivel general y principales aperturas. Base 2003 = 100"
+        ],
+        "key": "sspm-indice-precios-al-consumidor-provincia-san-luis-base-2003-100",
+        "type": "abiertos"
+      },
+      {
+        "title": "Índice de Precios al Consumidor de la Provincia de Santa Fe. Base 2014 = 100",
+        "resources": [
+          "Índice de Precios al Consumidor de Santa Fe. Nivel general y principales aperturas. Base 2014 = 100"
+        ],
+        "key": "sspm-indice-precios-al-consumidor-provincia-santa-fe-base-2014-100",
+        "type": "abiertos"
+      },
+      {
+        "title": "Índice de Precios al Consumidor de la Provincia de Tucumán.",
+        "resources": [
+          "Índice de Precios al Consumidor de Tucumán. Nivel general. Base Diciembre 2017 = 100",
+          "Índice de Precios al Consumidor de Tucumán. Nivel general. Base 2004 = 100"
+        ],
+        "key": "sspm-indice-precios-al-consumidor-provincia-tucuman",
+        "type": "abiertos"
+      }
+    ]
+  }
+]

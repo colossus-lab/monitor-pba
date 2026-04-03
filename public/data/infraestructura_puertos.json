@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Bahía Blanca",
+    "toneladas": 25000
+  },
+  {
+    "name": "Dock Sud",
+    "toneladas": 15000
+  },
+  {
+    "name": "La Plata",
+    "toneladas": 8000
+  }
+]

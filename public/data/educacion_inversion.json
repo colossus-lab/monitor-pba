@@ -1,0 +1,14 @@
+[
+  {
+    "distrito": "La Matanza",
+    "monto": 500
+  },
+  {
+    "distrito": "Lomas de Zamora",
+    "monto": 350
+  },
+  {
+    "distrito": "Quilmes",
+    "monto": 280
+  }
+]
