@@ -90,4 +90,4 @@ const SeguridadView = () => {
   );
 };
 
-export default SeguridadView;
+export default React.memo(SeguridadView);

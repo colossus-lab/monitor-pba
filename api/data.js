@@ -1,7 +1,6 @@
 import { sql } from '@vercel/postgres';
 
 export default async function handler(request, response) {
-  // Configurar CORS por si acaso
   response.setHeader('Access-Control-Allow-Credentials', true);
   response.setHeader('Access-Control-Allow-Origin', '*');
   response.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS');
@@ -16,44 +15,34 @@ export default async function handler(request, response) {
     return response.status(400).json({ error: 'Falta proveer el nombre de la tabla.' });
   }
 
+  if (!/^[a-zA-Z0-9_]+$/.test(table)) {
+    return response.status(400).json({ error: 'Nombre de tabla inválido.' });
+  }
+
+  const parsedPage = Math.max(1, parseInt(page) || 1);
+  const parsedLimit = Math.min(parseInt(limit) || 50, 200);
+  const offset = (parsedPage - 1) * parsedLimit;
+
   try {
-    // Validar nombre de la tabla para prevenir SQL Injection basico (solo chars alfanumericos y underscores)
-    if (!/^[a-zA-Z0-9_]+$/.test(table)) {
-        return response.status(400).json({ error: 'Nombre de tabla inválido.' });
-    }
-
-    const offset = (parseInt(page) - 1) * parseInt(limit);
-    const parsedLimit = parseInt(limit);
-
-    // Obtener los datos usando sql interpolado seguro (Limit/Offset). 
-    // Ojo, en @vercel/postgres table names dinámicos usualmente deben ser literales,
-    // usaremos sql.query para raw queries si es dinámico.
-    
-    // Consulta 1: Obtener el schema (nombres de las columnas)
-    // Para simplificar, hacemos solo un select y sacamos las llaves, 
-    // pero Neon lo trae todo empaquetado.
-
-    const rowsResult = await sql.query(
-        `SELECT * FROM "${table}" LIMIT $1 OFFSET $2`, 
-        [parsedLimit, offset]
+    const result = await sql.query(
+      `SELECT *, COUNT(*) OVER() AS __total_count FROM "${table}" LIMIT $1 OFFSET $2`,
+      [parsedLimit, offset]
     );
 
-    const countResult = await sql.query(
-        `SELECT COUNT(*) as total FROM "${table}"`
-    );
+    const total = result.rows.length > 0 ? parseInt(result.rows[0].__total_count) : 0;
+    const data = result.rows.map(({ __total_count, ...row }) => row);
 
     return response.status(200).json({
-      data: rowsResult.rows,
+      data,
       meta: {
-        total: parseInt(countResult.rows[0].total),
-        page: parseInt(page),
+        total,
+        page: parsedPage,
         limit: parsedLimit,
-        totalPages: Math.ceil(parseInt(countResult.rows[0].total) / parsedLimit)
+        totalPages: Math.ceil(total / parsedLimit) || 1
       }
     });
 
   } catch (error) {
-    // Es posible que la tabla no exista todavía o no terminó de ingestar
-    return response.status(500).json({ error: 'Error intenyando acceder a Vercel Postgres.', details: error.message });
+    return response.status(500).json({ error: 'Error al consultar la base de datos.' });
   }
 }

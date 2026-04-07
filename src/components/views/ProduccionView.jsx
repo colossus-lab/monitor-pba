@@ -85,4 +85,4 @@ const ProduccionView = () => {
   );
 };
 
-export default ProduccionView;
+export default React.memo(ProduccionView);

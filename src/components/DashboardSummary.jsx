@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, Legend } from 'recharts';
 
-function DashboardSummary({ data }) {
+function DashboardSummary({ data, onSelectCategory }) {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
   useEffect(() => {
@@ -65,14 +65,27 @@ function DashboardSummary({ data }) {
 
       {/* Chart */}
       <div className="chart-container" style={{ marginTop: '3rem', height: `${dynamicHeight}px`, minHeight: '400px', padding: '1.5rem', background: 'var(--bg-glass)', borderRadius: '16px', border: '1px solid var(--border-color)' }}>
-        <h3 style={{ marginBottom: '1.5rem', fontWeight: 600 }}>Distribución por Tema</h3>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '1.5rem' }}>
+          <h3 style={{ fontWeight: 600 }}>Distribución por Tema</h3>
+          {onSelectCategory && (
+            <span style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
+              Hacé click en una barra para explorar
+            </span>
+          )}
+        </div>
         <ResponsiveContainer width="100%" height="90%">
-          <BarChart data={chartData} layout="vertical" margin={{ top: 5, right: 30, left: 10, bottom: 5 }}>
+          <BarChart
+            data={chartData}
+            layout="vertical"
+            margin={{ top: 5, right: 30, left: 10, bottom: 5 }}
+            style={onSelectCategory ? { cursor: 'pointer' } : undefined}
+            onClick={onSelectCategory ? (e) => { if (e?.activePayload?.[0]) onSelectCategory(e.activePayload[0].payload.name); } : undefined}
+          >
             <XAxis type="number" stroke="var(--text-secondary)" tick={{fontSize: isMobile ? 10 : 12}} />
             <YAxis dataKey="name" type="category" stroke="var(--text-secondary)" width={isMobile ? 130 : 280} tick={{fontSize: isMobile ? 10 : 12}} />
-            <Tooltip 
-              cursor={{fill: 'var(--hover-bg)'}} 
-              contentStyle={{ background: '#1e293b', border: 'none', borderRadius: '8px', color: '#fff' }} 
+            <Tooltip
+              cursor={{fill: 'var(--hover-bg)'}}
+              contentStyle={{ background: '#1e293b', border: 'none', borderRadius: '8px', color: '#fff' }}
             />
             <Legend verticalAlign="top" height={36} iconType="circle" />
             <Bar dataKey="PBA" fill="#10b981" radius={[0, 4, 4, 0]} name="Portal PBA" />

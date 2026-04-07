@@ -94,4 +94,4 @@ const SaludView = () => {
   );
 };
 
-export default SaludView;
+export default React.memo(SaludView);

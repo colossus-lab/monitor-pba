@@ -1,9 +1,16 @@
 import React from 'react';
 
-function Header({ searchQuery, setSearchQuery, theme, toggleTheme }) {
+function Header({ searchQuery, setSearchQuery, theme, toggleTheme, onToggleSidebar }) {
   return (
     <header className="nav-header glass-nav">
       <div className="nav-content">
+        <button className="hamburger-btn" onClick={onToggleSidebar} aria-label="Abrir menú">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
         <div className="brand-title">
           <span className="brand-icon">🏛️</span>
           <span className="brand-text">OpenPBA <span className="hide-mobile">Explorador</span></span>

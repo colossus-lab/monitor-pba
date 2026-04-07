@@ -98,4 +98,4 @@ const InfraestructuraView = () => {
   );
 };
 
-export default InfraestructuraView;
+export default React.memo(InfraestructuraView);

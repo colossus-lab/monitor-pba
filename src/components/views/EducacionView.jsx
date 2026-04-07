@@ -79,4 +79,4 @@ const EducacionView = () => {
   );
 };
 
-export default EducacionView;
+export default React.memo(EducacionView);
